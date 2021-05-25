@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir/objects.a
+D:\QT\Tools\mingw810_64\bin\ar.exe cr CMakeFiles\TAProject2021_MenuaHovhannisyan.dir/objects.a @CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\objects1.rsp
+D:\QT\Tools\mingw810_64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\TAProject2021_MenuaHovhannisyan.dir/objects.a -Wl,--no-whole-archive  -o TAProject2021_MenuaHovhannisyan.exe -Wl,--out-implib,libTAProject2021_MenuaHovhannisyan.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\linklibs.rsp

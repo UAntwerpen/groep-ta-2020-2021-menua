@@ -1,0 +1,4 @@
+"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug

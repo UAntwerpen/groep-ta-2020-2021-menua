@@ -1,0 +1,60 @@
+{
+	"Shops":[
+		{
+			"ShopId": "0",
+			"ShopName": "Garage BMW",
+			"ShopParts": "BMW"
+		},
+		{
+			"ShopId": "1",
+			"ShopName": "Garage Mercedes",
+			"ShopParts": "MERCEDES"
+		},
+		{
+			"ShopId": "2",
+			"ShopName": "Garage Audi",
+			"ShopParts": "AUDI"
+		},
+		{
+			"ShopId": "3",
+			"ShopName": "Garage Jorssen",
+			"ShopParts": "AUDI-BMW-MERCEDES"
+		},
+		{
+			"ShopId": "4",
+			"ShopName": "Garage Luc",
+			"ShopParts": "AUDI-MERCEDES"
+		},
+		{
+			"ShopId": "5",
+			"ShopName": "Garage Schelkens",
+			"ShopParts": "BMW-MERCEDES"
+		},
+		{
+			"ShopId": "6",
+			"ShopName": "Garage De Vuyst",
+			"ShopParts": "AUDI-BMW"
+		}
+	],
+	
+	"Cars":[
+		{
+			"CarId": "0",
+			"CarBrand: "AUDI",
+			"CarRegex": "AUDI RS[1-7]",
+			"CarPartShops:"2-3-4-6"
+		},
+		{
+			"CarId": "1",
+			"CarBrand: "BMW",
+			"CarRegex": "BMW M[1-6]",
+			"CarPartShops:"0-3-5-6"
+		},
+		{
+			"CarId": "2",
+			"CarBrand: "MERCEDES",
+			"CarRegex": "MERCEDES [SEC][654]3",
+			"CarPartShops:"1-3-4-5"
+		}
+	]
+}
