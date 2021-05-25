@@ -40,21 +40,21 @@
 	"Cars":[
 		{
 			"CarId": "0",
-			"CarBrand: "AUDI",
+			"CarBrand": "AUDI",
 			"CarRegex": "AUDI RS[1-7]",
-			"CarPartShops:"2-3-4-6"
+			"CarPartShops":"2-3-4-6"
 		},
 		{
 			"CarId": "1",
-			"CarBrand: "BMW",
+			"CarBrand": "BMW",
 			"CarRegex": "BMW M[1-6]",
-			"CarPartShops:"0-3-5-6"
+			"CarPartShops":"0-3-5-6"
 		},
 		{
 			"CarId": "2",
-			"CarBrand: "MERCEDES",
+			"CarBrand": "MERCEDES",
 			"CarRegex": "MERCEDES [SEC][654]3",
-			"CarPartShops:"1-3-4-5"
+			"CarPartShops":"1-3-4-5"
 		}
 	]
 }
