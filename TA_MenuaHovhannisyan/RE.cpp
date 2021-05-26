@@ -3,3 +3,7 @@
 //
 
 #include "RE.h"
+
+RE::RE(const string &p_regex) {
+    regex = p_regex;
+}
