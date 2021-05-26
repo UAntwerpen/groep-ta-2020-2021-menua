@@ -142,6 +142,168 @@ TAProject2021_MenuaHovhannisyan/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/build
 .PHONY : TAProject2021_MenuaHovhannisyan/fast
 
+TA_MenuaHovhannisyan/DFA.obj: TA_MenuaHovhannisyan/DFA.cpp.obj
+
+.PHONY : TA_MenuaHovhannisyan/DFA.obj
+
+# target to build an object file
+TA_MenuaHovhannisyan/DFA.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/DFA.cpp.obj
+.PHONY : TA_MenuaHovhannisyan/DFA.cpp.obj
+
+TA_MenuaHovhannisyan/DFA.i: TA_MenuaHovhannisyan/DFA.cpp.i
+
+.PHONY : TA_MenuaHovhannisyan/DFA.i
+
+# target to preprocess a source file
+TA_MenuaHovhannisyan/DFA.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/DFA.cpp.i
+.PHONY : TA_MenuaHovhannisyan/DFA.cpp.i
+
+TA_MenuaHovhannisyan/DFA.s: TA_MenuaHovhannisyan/DFA.cpp.s
+
+.PHONY : TA_MenuaHovhannisyan/DFA.s
+
+# target to generate assembly for a file
+TA_MenuaHovhannisyan/DFA.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/DFA.cpp.s
+.PHONY : TA_MenuaHovhannisyan/DFA.cpp.s
+
+TA_MenuaHovhannisyan/NFA.obj: TA_MenuaHovhannisyan/NFA.cpp.obj
+
+.PHONY : TA_MenuaHovhannisyan/NFA.obj
+
+# target to build an object file
+TA_MenuaHovhannisyan/NFA.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/NFA.cpp.obj
+.PHONY : TA_MenuaHovhannisyan/NFA.cpp.obj
+
+TA_MenuaHovhannisyan/NFA.i: TA_MenuaHovhannisyan/NFA.cpp.i
+
+.PHONY : TA_MenuaHovhannisyan/NFA.i
+
+# target to preprocess a source file
+TA_MenuaHovhannisyan/NFA.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/NFA.cpp.i
+.PHONY : TA_MenuaHovhannisyan/NFA.cpp.i
+
+TA_MenuaHovhannisyan/NFA.s: TA_MenuaHovhannisyan/NFA.cpp.s
+
+.PHONY : TA_MenuaHovhannisyan/NFA.s
+
+# target to generate assembly for a file
+TA_MenuaHovhannisyan/NFA.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/NFA.cpp.s
+.PHONY : TA_MenuaHovhannisyan/NFA.cpp.s
+
+TA_MenuaHovhannisyan/State.obj: TA_MenuaHovhannisyan/State.cpp.obj
+
+.PHONY : TA_MenuaHovhannisyan/State.obj
+
+# target to build an object file
+TA_MenuaHovhannisyan/State.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/State.cpp.obj
+.PHONY : TA_MenuaHovhannisyan/State.cpp.obj
+
+TA_MenuaHovhannisyan/State.i: TA_MenuaHovhannisyan/State.cpp.i
+
+.PHONY : TA_MenuaHovhannisyan/State.i
+
+# target to preprocess a source file
+TA_MenuaHovhannisyan/State.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/State.cpp.i
+.PHONY : TA_MenuaHovhannisyan/State.cpp.i
+
+TA_MenuaHovhannisyan/State.s: TA_MenuaHovhannisyan/State.cpp.s
+
+.PHONY : TA_MenuaHovhannisyan/State.s
+
+# target to generate assembly for a file
+TA_MenuaHovhannisyan/State.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/State.cpp.s
+.PHONY : TA_MenuaHovhannisyan/State.cpp.s
+
+TA_MenuaHovhannisyan/Transition.obj: TA_MenuaHovhannisyan/Transition.cpp.obj
+
+.PHONY : TA_MenuaHovhannisyan/Transition.obj
+
+# target to build an object file
+TA_MenuaHovhannisyan/Transition.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/Transition.cpp.obj
+.PHONY : TA_MenuaHovhannisyan/Transition.cpp.obj
+
+TA_MenuaHovhannisyan/Transition.i: TA_MenuaHovhannisyan/Transition.cpp.i
+
+.PHONY : TA_MenuaHovhannisyan/Transition.i
+
+# target to preprocess a source file
+TA_MenuaHovhannisyan/Transition.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/Transition.cpp.i
+.PHONY : TA_MenuaHovhannisyan/Transition.cpp.i
+
+TA_MenuaHovhannisyan/Transition.s: TA_MenuaHovhannisyan/Transition.cpp.s
+
+.PHONY : TA_MenuaHovhannisyan/Transition.s
+
+# target to generate assembly for a file
+TA_MenuaHovhannisyan/Transition.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/Transition.cpp.s
+.PHONY : TA_MenuaHovhannisyan/Transition.cpp.s
+
+TA_MenuaHovhannisyan/main.obj: TA_MenuaHovhannisyan/main.cpp.obj
+
+.PHONY : TA_MenuaHovhannisyan/main.obj
+
+# target to build an object file
+TA_MenuaHovhannisyan/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/main.cpp.obj
+.PHONY : TA_MenuaHovhannisyan/main.cpp.obj
+
+TA_MenuaHovhannisyan/main.i: TA_MenuaHovhannisyan/main.cpp.i
+
+.PHONY : TA_MenuaHovhannisyan/main.i
+
+# target to preprocess a source file
+TA_MenuaHovhannisyan/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/main.cpp.i
+.PHONY : TA_MenuaHovhannisyan/main.cpp.i
+
+TA_MenuaHovhannisyan/main.s: TA_MenuaHovhannisyan/main.cpp.s
+
+.PHONY : TA_MenuaHovhannisyan/main.s
+
+# target to generate assembly for a file
+TA_MenuaHovhannisyan/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/main.cpp.s
+.PHONY : TA_MenuaHovhannisyan/main.cpp.s
+
+car.obj: car.cpp.obj
+
+.PHONY : car.obj
+
+# target to build an object file
+car.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/car.cpp.obj
+.PHONY : car.cpp.obj
+
+car.i: car.cpp.i
+
+.PHONY : car.i
+
+# target to preprocess a source file
+car.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/car.cpp.i
+.PHONY : car.cpp.i
+
+car.s: car.cpp.s
+
+.PHONY : car.s
+
+# target to generate assembly for a file
+car.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/car.cpp.s
+.PHONY : car.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -169,6 +331,60 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+shop.obj: shop.cpp.obj
+
+.PHONY : shop.obj
+
+# target to build an object file
+shop.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/shop.cpp.obj
+.PHONY : shop.cpp.obj
+
+shop.i: shop.cpp.i
+
+.PHONY : shop.i
+
+# target to preprocess a source file
+shop.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/shop.cpp.i
+.PHONY : shop.cpp.i
+
+shop.s: shop.cpp.s
+
+.PHONY : shop.s
+
+# target to generate assembly for a file
+shop.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/shop.cpp.s
+.PHONY : shop.cpp.s
+
+system.obj: system.cpp.obj
+
+.PHONY : system.obj
+
+# target to build an object file
+system.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/system.cpp.obj
+.PHONY : system.cpp.obj
+
+system.i: system.cpp.i
+
+.PHONY : system.i
+
+# target to preprocess a source file
+system.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/system.cpp.i
+.PHONY : system.cpp.i
+
+system.s: system.cpp.s
+
+.PHONY : system.s
+
+# target to generate assembly for a file
+system.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/system.cpp.s
+.PHONY : system.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -178,9 +394,33 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... TAProject2021_MenuaHovhannisyan
+	@echo ... TA_MenuaHovhannisyan/DFA.obj
+	@echo ... TA_MenuaHovhannisyan/DFA.i
+	@echo ... TA_MenuaHovhannisyan/DFA.s
+	@echo ... TA_MenuaHovhannisyan/NFA.obj
+	@echo ... TA_MenuaHovhannisyan/NFA.i
+	@echo ... TA_MenuaHovhannisyan/NFA.s
+	@echo ... TA_MenuaHovhannisyan/State.obj
+	@echo ... TA_MenuaHovhannisyan/State.i
+	@echo ... TA_MenuaHovhannisyan/State.s
+	@echo ... TA_MenuaHovhannisyan/Transition.obj
+	@echo ... TA_MenuaHovhannisyan/Transition.i
+	@echo ... TA_MenuaHovhannisyan/Transition.s
+	@echo ... TA_MenuaHovhannisyan/main.obj
+	@echo ... TA_MenuaHovhannisyan/main.i
+	@echo ... TA_MenuaHovhannisyan/main.s
+	@echo ... car.obj
+	@echo ... car.i
+	@echo ... car.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... shop.obj
+	@echo ... shop.i
+	@echo ... shop.s
+	@echo ... system.obj
+	@echo ... system.i
+	@echo ... system.s
 .PHONY : help
 
 

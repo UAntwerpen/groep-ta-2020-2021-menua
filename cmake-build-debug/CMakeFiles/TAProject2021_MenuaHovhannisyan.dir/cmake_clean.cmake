@@ -1,5 +1,13 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/DFA.cpp.obj"
+  "CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/NFA.cpp.obj"
+  "CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/State.cpp.obj"
+  "CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/Transition.cpp.obj"
+  "CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/main.cpp.obj"
+  "CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/car.cpp.obj"
   "CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/main.cpp.obj"
+  "CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/shop.cpp.obj"
+  "CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/system.cpp.obj"
   "TAProject2021_MenuaHovhannisyan.exe"
   "TAProject2021_MenuaHovhannisyan.exe.manifest"
   "TAProject2021_MenuaHovhannisyan.pdb"
