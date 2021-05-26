@@ -196,6 +196,33 @@ TA_MenuaHovhannisyan/NFA.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/NFA.cpp.s
 .PHONY : TA_MenuaHovhannisyan/NFA.cpp.s
 
+TA_MenuaHovhannisyan/RE.obj: TA_MenuaHovhannisyan/RE.cpp.obj
+
+.PHONY : TA_MenuaHovhannisyan/RE.obj
+
+# target to build an object file
+TA_MenuaHovhannisyan/RE.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/RE.cpp.obj
+.PHONY : TA_MenuaHovhannisyan/RE.cpp.obj
+
+TA_MenuaHovhannisyan/RE.i: TA_MenuaHovhannisyan/RE.cpp.i
+
+.PHONY : TA_MenuaHovhannisyan/RE.i
+
+# target to preprocess a source file
+TA_MenuaHovhannisyan/RE.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/RE.cpp.i
+.PHONY : TA_MenuaHovhannisyan/RE.cpp.i
+
+TA_MenuaHovhannisyan/RE.s: TA_MenuaHovhannisyan/RE.cpp.s
+
+.PHONY : TA_MenuaHovhannisyan/RE.s
+
+# target to generate assembly for a file
+TA_MenuaHovhannisyan/RE.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/RE.cpp.s
+.PHONY : TA_MenuaHovhannisyan/RE.cpp.s
+
 TA_MenuaHovhannisyan/State.obj: TA_MenuaHovhannisyan/State.cpp.obj
 
 .PHONY : TA_MenuaHovhannisyan/State.obj
@@ -373,6 +400,9 @@ help:
 	@echo ... TA_MenuaHovhannisyan/NFA.obj
 	@echo ... TA_MenuaHovhannisyan/NFA.i
 	@echo ... TA_MenuaHovhannisyan/NFA.s
+	@echo ... TA_MenuaHovhannisyan/RE.obj
+	@echo ... TA_MenuaHovhannisyan/RE.i
+	@echo ... TA_MenuaHovhannisyan/RE.s
 	@echo ... TA_MenuaHovhannisyan/State.obj
 	@echo ... TA_MenuaHovhannisyan/State.i
 	@echo ... TA_MenuaHovhannisyan/State.s

@@ -92,6 +92,12 @@
 		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/NFA.h">
 			<Option target="TAProject2021_MenuaHovhannisyan"/>
 		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/RE.cpp">
+			<Option target="TAProject2021_MenuaHovhannisyan"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/RE.h">
+			<Option target="TAProject2021_MenuaHovhannisyan"/>
+		</Unit>
 		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/State.cpp">
 			<Option target="TAProject2021_MenuaHovhannisyan"/>
 		</Unit>
