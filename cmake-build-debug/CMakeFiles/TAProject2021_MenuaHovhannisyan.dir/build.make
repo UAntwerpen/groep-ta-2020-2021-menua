@@ -89,22 +89,9 @@ CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/main.cpp.s"
 	D:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua\main.cpp -o CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\main.cpp.s
 
-CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/main.cpp.obj: CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/flags.make
-CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/main.cpp.obj: ../TA_MenuaHovhannisyan/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/main.cpp.obj"
-	D:\QT\Tools\mingw810_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\TA_MenuaHovhannisyan\main.cpp.obj -c C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua\TA_MenuaHovhannisyan\main.cpp
-
-CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/main.cpp.i"
-	D:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua\TA_MenuaHovhannisyan\main.cpp > CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\TA_MenuaHovhannisyan\main.cpp.i
-
-CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/main.cpp.s"
-	D:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua\TA_MenuaHovhannisyan\main.cpp -o CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\TA_MenuaHovhannisyan\main.cpp.s
-
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/State.cpp.obj: CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/flags.make
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/State.cpp.obj: ../TA_MenuaHovhannisyan/State.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/State.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/State.cpp.obj"
 	D:\QT\Tools\mingw810_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\TA_MenuaHovhannisyan\State.cpp.obj -c C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua\TA_MenuaHovhannisyan\State.cpp
 
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/State.cpp.i: cmake_force
@@ -117,7 +104,7 @@ CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/State.cpp.s:
 
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/DFA.cpp.obj: CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/flags.make
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/DFA.cpp.obj: ../TA_MenuaHovhannisyan/DFA.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/DFA.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/DFA.cpp.obj"
 	D:\QT\Tools\mingw810_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\TA_MenuaHovhannisyan\DFA.cpp.obj -c C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua\TA_MenuaHovhannisyan\DFA.cpp
 
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/DFA.cpp.i: cmake_force
@@ -130,7 +117,7 @@ CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/DFA.cpp.s: c
 
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/Transition.cpp.obj: CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/flags.make
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/Transition.cpp.obj: ../TA_MenuaHovhannisyan/Transition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/Transition.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/Transition.cpp.obj"
 	D:\QT\Tools\mingw810_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\TA_MenuaHovhannisyan\Transition.cpp.obj -c C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua\TA_MenuaHovhannisyan\Transition.cpp
 
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/Transition.cpp.i: cmake_force
@@ -143,7 +130,7 @@ CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/Transition.c
 
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/NFA.cpp.obj: CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/flags.make
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/NFA.cpp.obj: ../TA_MenuaHovhannisyan/NFA.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/NFA.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/NFA.cpp.obj"
 	D:\QT\Tools\mingw810_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\TA_MenuaHovhannisyan\NFA.cpp.obj -c C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua\TA_MenuaHovhannisyan\NFA.cpp
 
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/NFA.cpp.i: cmake_force
@@ -156,7 +143,7 @@ CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/NFA.cpp.s: c
 
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/shop.cpp.obj: CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/flags.make
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/shop.cpp.obj: ../shop.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/shop.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/shop.cpp.obj"
 	D:\QT\Tools\mingw810_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\shop.cpp.obj -c C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua\shop.cpp
 
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/shop.cpp.i: cmake_force
@@ -169,7 +156,7 @@ CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/shop.cpp.s: cmake_force
 
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/car.cpp.obj: CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/flags.make
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/car.cpp.obj: ../car.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/car.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/car.cpp.obj"
 	D:\QT\Tools\mingw810_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\car.cpp.obj -c C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua\car.cpp
 
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/car.cpp.i: cmake_force
@@ -182,7 +169,7 @@ CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/car.cpp.s: cmake_force
 
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/system.cpp.obj: CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/flags.make
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/system.cpp.obj: ../system.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/system.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/system.cpp.obj"
 	D:\QT\Tools\mingw810_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\system.cpp.obj -c C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua\system.cpp
 
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/system.cpp.i: cmake_force
@@ -196,7 +183,6 @@ CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/system.cpp.s: cmake_force
 # Object files for target TAProject2021_MenuaHovhannisyan
 TAProject2021_MenuaHovhannisyan_OBJECTS = \
 "CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/main.cpp.obj" \
-"CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/main.cpp.obj" \
 "CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/State.cpp.obj" \
 "CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/DFA.cpp.obj" \
 "CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/Transition.cpp.obj" \
@@ -209,7 +195,6 @@ TAProject2021_MenuaHovhannisyan_OBJECTS = \
 TAProject2021_MenuaHovhannisyan_EXTERNAL_OBJECTS =
 
 TAProject2021_MenuaHovhannisyan.exe: CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/main.cpp.obj
-TAProject2021_MenuaHovhannisyan.exe: CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/main.cpp.obj
 TAProject2021_MenuaHovhannisyan.exe: CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/State.cpp.obj
 TAProject2021_MenuaHovhannisyan.exe: CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/DFA.cpp.obj
 TAProject2021_MenuaHovhannisyan.exe: CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/Transition.cpp.obj
@@ -221,7 +206,7 @@ TAProject2021_MenuaHovhannisyan.exe: CMakeFiles/TAProject2021_MenuaHovhannisyan.
 TAProject2021_MenuaHovhannisyan.exe: CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/linklibs.rsp
 TAProject2021_MenuaHovhannisyan.exe: CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/objects1.rsp
 TAProject2021_MenuaHovhannisyan.exe: CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable TAProject2021_MenuaHovhannisyan.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable TAProject2021_MenuaHovhannisyan.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

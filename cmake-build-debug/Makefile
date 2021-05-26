@@ -250,33 +250,6 @@ TA_MenuaHovhannisyan/Transition.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/Transition.cpp.s
 .PHONY : TA_MenuaHovhannisyan/Transition.cpp.s
 
-TA_MenuaHovhannisyan/main.obj: TA_MenuaHovhannisyan/main.cpp.obj
-
-.PHONY : TA_MenuaHovhannisyan/main.obj
-
-# target to build an object file
-TA_MenuaHovhannisyan/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/main.cpp.obj
-.PHONY : TA_MenuaHovhannisyan/main.cpp.obj
-
-TA_MenuaHovhannisyan/main.i: TA_MenuaHovhannisyan/main.cpp.i
-
-.PHONY : TA_MenuaHovhannisyan/main.i
-
-# target to preprocess a source file
-TA_MenuaHovhannisyan/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/main.cpp.i
-.PHONY : TA_MenuaHovhannisyan/main.cpp.i
-
-TA_MenuaHovhannisyan/main.s: TA_MenuaHovhannisyan/main.cpp.s
-
-.PHONY : TA_MenuaHovhannisyan/main.s
-
-# target to generate assembly for a file
-TA_MenuaHovhannisyan/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/main.cpp.s
-.PHONY : TA_MenuaHovhannisyan/main.cpp.s
-
 car.obj: car.cpp.obj
 
 .PHONY : car.obj
@@ -406,9 +379,6 @@ help:
 	@echo ... TA_MenuaHovhannisyan/Transition.obj
 	@echo ... TA_MenuaHovhannisyan/Transition.i
 	@echo ... TA_MenuaHovhannisyan/Transition.s
-	@echo ... TA_MenuaHovhannisyan/main.obj
-	@echo ... TA_MenuaHovhannisyan/main.i
-	@echo ... TA_MenuaHovhannisyan/main.s
 	@echo ... car.obj
 	@echo ... car.i
 	@echo ... car.s
