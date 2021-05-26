@@ -3,6 +3,7 @@
 //
 #include <string>
 #include <iostream>
+#include "DFA.h"
 using namespace std;
 
 
@@ -16,6 +17,9 @@ private:
 
 public:
     RE(const string &regex);
+    DFA toDFA();
+
+
 
 };
 
