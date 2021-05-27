@@ -5,13 +5,26 @@
 #include "RE.h"
 
 RE::RE(const string &p_regex) {
+    setRegex(p_regex);
+}
+
+void RE::setRegex(const string &p_regex) {
     regex = p_regex;
 }
 
-DFA RE::toDFA() {
+string RE::getRegex() {
+    return regex;
+}
+
+NFA RE::toNFA() {
+    vector<State*> states;
+    vector<Transition*> transitions;
+    vector<string> alphabet;
 
 
 
-    DFA dfa();
-    return dfa();
+
+    NFA nfa(states,transitions,alphabet);
+    nfa.print();
+    return nfa;
 }

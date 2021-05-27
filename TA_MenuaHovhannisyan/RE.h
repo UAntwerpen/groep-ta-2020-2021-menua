@@ -3,7 +3,9 @@
 //
 #include <string>
 #include <iostream>
-#include "DFA.h"
+#include "NFA.h"
+#include "State.h"
+#include "Transition.h"
 using namespace std;
 
 
@@ -17,7 +19,9 @@ private:
 
 public:
     RE(const string &regex);
-    DFA toDFA();
+    NFA toNFA();
+    void setRegex(const string &p_regex);
+    string getRegex();
 
 
 

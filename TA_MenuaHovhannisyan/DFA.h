@@ -21,13 +21,16 @@ using json = nlohmann::json;
 //Onze klasse DFA
 class DFA{
 private:
+
     State* ptr{};
     vector<string>alphabet;
+
     vector<State*>states;
+
     State* startstate;
+
     map<string, int> state_map;
     vector<Transition*> trans;
-    json _input;
 
     vector<State*>states_dfa1;
     vector<State*>states_dfa2;
@@ -42,8 +45,8 @@ public:
 
     explicit DFA(const string& inp);
 
-    explicit DFA(vector<State*> p_states, vector<Transition*> p_transitions, vector<string> p_alphabet) {
-        states = std::move(p_states);
+    explicit DFA(vector<State*> &p_states, vector<Transition*> p_transitions, vector<string> p_alphabet) {
+        states = p_states;
         for (int i = 0; i < states.size(); ++i) {
             state_map.insert(pair<string, int>(states[i]->get_title(), i));
         }

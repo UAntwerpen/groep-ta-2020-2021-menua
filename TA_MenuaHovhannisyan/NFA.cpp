@@ -235,3 +235,12 @@ bool NFA::existState(const string &input) {//kijken of de state bestaat of niet
     return false;
 }
 
+NFA::NFA(vector<State *> &p_states, vector<Transition *> &p_transitions, vector<string> &p_alphabet) {
+    states = p_states;
+    for (int i = 0; i < states.size(); ++i) {
+        state_map.insert(pair<string, int>(states[i]->get_title(), i));
+    }
+    trans = p_transitions;
+    alphabet = p_alphabet;
+}
+
