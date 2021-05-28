@@ -22,6 +22,7 @@ public:
     NFA toNFA();
     void setRegex(const string &p_regex);
     string getRegex();
+    vector<string> splitRegex();
 
 
 

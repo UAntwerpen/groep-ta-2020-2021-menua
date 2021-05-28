@@ -28,7 +28,6 @@ NFA::NFA(const string &inp) {//We construeren een NFA vanuit een bestand
     ifstream input(inp);
     json j;
     input >> j;
-    _input = inp;
     set_alphabet(j["alphabet"]);
     //states
     for(auto & i: j["states"]){

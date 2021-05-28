@@ -22,9 +22,50 @@ NFA RE::toNFA() {
     vector<string> alphabet;
 
 
+    
+
+
 
 
     NFA nfa(states,transitions,alphabet);
     nfa.print();
     return nfa;
+}
+
+vector<string> RE::splitRegex() {
+    string re;
+    vector<string> tmpvec;
+    bool bracket = false;
+    for(auto i: regex){
+        if(i == '('){
+            bracket = true;
+            re += i;
+        }
+        else if(i == '+'){
+            if(!bracket){
+                tmpvec.push_back(re);
+                re = i;
+                tmpvec.push_back(re);
+                re = "";
+            }
+            else{
+                re += i;
+            }
+        }
+        else if(i == ')'){
+            bracket = false;
+            re += i;
+        }
+        else {
+            re += i;
+        }
+    }
+    tmpvec.push_back(re);
+
+    for(auto k: tmpvec){
+        cout << k << endl;
+        cout << "---" << endl;
+    }
+
+    return tmpvec;
 }
