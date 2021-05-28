@@ -169,6 +169,33 @@ TA_MenuaHovhannisyan/DFA.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/DFA.cpp.s
 .PHONY : TA_MenuaHovhannisyan/DFA.cpp.s
 
+TA_MenuaHovhannisyan/Edge.obj: TA_MenuaHovhannisyan/Edge.cpp.obj
+
+.PHONY : TA_MenuaHovhannisyan/Edge.obj
+
+# target to build an object file
+TA_MenuaHovhannisyan/Edge.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/Edge.cpp.obj
+.PHONY : TA_MenuaHovhannisyan/Edge.cpp.obj
+
+TA_MenuaHovhannisyan/Edge.i: TA_MenuaHovhannisyan/Edge.cpp.i
+
+.PHONY : TA_MenuaHovhannisyan/Edge.i
+
+# target to preprocess a source file
+TA_MenuaHovhannisyan/Edge.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/Edge.cpp.i
+.PHONY : TA_MenuaHovhannisyan/Edge.cpp.i
+
+TA_MenuaHovhannisyan/Edge.s: TA_MenuaHovhannisyan/Edge.cpp.s
+
+.PHONY : TA_MenuaHovhannisyan/Edge.s
+
+# target to generate assembly for a file
+TA_MenuaHovhannisyan/Edge.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/Edge.cpp.s
+.PHONY : TA_MenuaHovhannisyan/Edge.cpp.s
+
 TA_MenuaHovhannisyan/NFA.obj: TA_MenuaHovhannisyan/NFA.cpp.obj
 
 .PHONY : TA_MenuaHovhannisyan/NFA.obj
@@ -195,6 +222,33 @@ TA_MenuaHovhannisyan/NFA.s: TA_MenuaHovhannisyan/NFA.cpp.s
 TA_MenuaHovhannisyan/NFA.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/NFA.cpp.s
 .PHONY : TA_MenuaHovhannisyan/NFA.cpp.s
+
+TA_MenuaHovhannisyan/Node.obj: TA_MenuaHovhannisyan/Node.cpp.obj
+
+.PHONY : TA_MenuaHovhannisyan/Node.obj
+
+# target to build an object file
+TA_MenuaHovhannisyan/Node.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/Node.cpp.obj
+.PHONY : TA_MenuaHovhannisyan/Node.cpp.obj
+
+TA_MenuaHovhannisyan/Node.i: TA_MenuaHovhannisyan/Node.cpp.i
+
+.PHONY : TA_MenuaHovhannisyan/Node.i
+
+# target to preprocess a source file
+TA_MenuaHovhannisyan/Node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/Node.cpp.i
+.PHONY : TA_MenuaHovhannisyan/Node.cpp.i
+
+TA_MenuaHovhannisyan/Node.s: TA_MenuaHovhannisyan/Node.cpp.s
+
+.PHONY : TA_MenuaHovhannisyan/Node.s
+
+# target to generate assembly for a file
+TA_MenuaHovhannisyan/Node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/Node.cpp.s
+.PHONY : TA_MenuaHovhannisyan/Node.cpp.s
 
 TA_MenuaHovhannisyan/RE.obj: TA_MenuaHovhannisyan/RE.cpp.obj
 
@@ -397,9 +451,15 @@ help:
 	@echo ... TA_MenuaHovhannisyan/DFA.obj
 	@echo ... TA_MenuaHovhannisyan/DFA.i
 	@echo ... TA_MenuaHovhannisyan/DFA.s
+	@echo ... TA_MenuaHovhannisyan/Edge.obj
+	@echo ... TA_MenuaHovhannisyan/Edge.i
+	@echo ... TA_MenuaHovhannisyan/Edge.s
 	@echo ... TA_MenuaHovhannisyan/NFA.obj
 	@echo ... TA_MenuaHovhannisyan/NFA.i
 	@echo ... TA_MenuaHovhannisyan/NFA.s
+	@echo ... TA_MenuaHovhannisyan/Node.obj
+	@echo ... TA_MenuaHovhannisyan/Node.i
+	@echo ... TA_MenuaHovhannisyan/Node.s
 	@echo ... TA_MenuaHovhannisyan/RE.obj
 	@echo ... TA_MenuaHovhannisyan/RE.i
 	@echo ... TA_MenuaHovhannisyan/RE.s

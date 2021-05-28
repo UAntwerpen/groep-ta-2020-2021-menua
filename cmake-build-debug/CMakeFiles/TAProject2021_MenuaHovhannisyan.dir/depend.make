@@ -7,6 +7,10 @@ CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/DFA.cpp.obj:
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/DFA.cpp.obj: ../TA_MenuaHovhannisyan/Transition.h
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/DFA.cpp.obj: ../TA_MenuaHovhannisyan/json.hpp
 
+CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/Edge.cpp.obj: ../TA_MenuaHovhannisyan/Edge.cpp
+CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/Edge.cpp.obj: ../TA_MenuaHovhannisyan/Edge.h
+CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/Edge.cpp.obj: ../TA_MenuaHovhannisyan/Node.h
+
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/NFA.cpp.obj: ../TA_MenuaHovhannisyan/DFA.h
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/NFA.cpp.obj: ../TA_MenuaHovhannisyan/NFA.cpp
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/NFA.cpp.obj: ../TA_MenuaHovhannisyan/NFA.h
@@ -14,8 +18,14 @@ CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/NFA.cpp.obj:
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/NFA.cpp.obj: ../TA_MenuaHovhannisyan/Transition.h
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/NFA.cpp.obj: ../TA_MenuaHovhannisyan/json.hpp
 
+CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/Node.cpp.obj: ../TA_MenuaHovhannisyan/Edge.h
+CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/Node.cpp.obj: ../TA_MenuaHovhannisyan/Node.cpp
+CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/Node.cpp.obj: ../TA_MenuaHovhannisyan/Node.h
+
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/RE.cpp.obj: ../TA_MenuaHovhannisyan/DFA.h
+CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/RE.cpp.obj: ../TA_MenuaHovhannisyan/Edge.h
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/RE.cpp.obj: ../TA_MenuaHovhannisyan/NFA.h
+CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/RE.cpp.obj: ../TA_MenuaHovhannisyan/Node.h
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/RE.cpp.obj: ../TA_MenuaHovhannisyan/RE.cpp
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/RE.cpp.obj: ../TA_MenuaHovhannisyan/RE.h
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/RE.cpp.obj: ../TA_MenuaHovhannisyan/State.h
@@ -33,7 +43,9 @@ CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/car.cpp.obj: ../car.cpp
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/car.cpp.obj: ../car.h
 
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/main.cpp.obj: ../TA_MenuaHovhannisyan/DFA.h
+CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/main.cpp.obj: ../TA_MenuaHovhannisyan/Edge.h
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/main.cpp.obj: ../TA_MenuaHovhannisyan/NFA.h
+CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/main.cpp.obj: ../TA_MenuaHovhannisyan/Node.h
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/main.cpp.obj: ../TA_MenuaHovhannisyan/RE.h
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/main.cpp.obj: ../TA_MenuaHovhannisyan/State.h
 CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/main.cpp.obj: ../TA_MenuaHovhannisyan/Transition.h

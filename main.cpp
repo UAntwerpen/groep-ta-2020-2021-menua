@@ -7,7 +7,12 @@
 using namespace std;
 
 int main() {
-    RE re("BMW M(1+2+3+4+5+6+8)+MERCEDES (S+E+C)(6+5+4)3 + AUDI RS(3+4+5+6+7)");
-    re.splitsRegex();
+    RE re("(m+y)*+(e+y+m+i)s");
+    vector<string> tmp;
+    string k1 = "(m+y)*";
+    string k2 = "(e+y+m+i)s";
+    tmp.push_back(k1);
+    tmp.push_back(k2);
+    re.unionFunc(tmp);
     return 0;
 }

@@ -6,6 +6,8 @@
 #include "NFA.h"
 #include "State.h"
 #include "Transition.h"
+#include "Node.h"
+#include "Edge.h"
 using namespace std;
 
 
@@ -19,10 +21,15 @@ private:
 
 public:
     RE(const string &regex);
-    NFA toNFA();
+    NFA toENFA();
     void setRegex(const string &p_regex);
     string getRegex();
     vector<string> splitRegex();
+
+    tuple<vector<Node*>, vector<Edge*>> unionFunc(const vector<string>& p_inputs);
+    tuple<vector<Node*>, vector<Edge*>> intersecFunc(const string& p_input);
+    tuple<vector<Node *>, vector<Edge *>> closureFunc(const string& p_input);
+
 
 
 

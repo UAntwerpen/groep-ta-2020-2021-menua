@@ -86,10 +86,22 @@
 		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/DFA.h">
 			<Option target="TAProject2021_MenuaHovhannisyan"/>
 		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/Edge.cpp">
+			<Option target="TAProject2021_MenuaHovhannisyan"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/Edge.h">
+			<Option target="TAProject2021_MenuaHovhannisyan"/>
+		</Unit>
 		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/NFA.cpp">
 			<Option target="TAProject2021_MenuaHovhannisyan"/>
 		</Unit>
 		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/NFA.h">
+			<Option target="TAProject2021_MenuaHovhannisyan"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/Node.cpp">
+			<Option target="TAProject2021_MenuaHovhannisyan"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/Node.h">
 			<Option target="TAProject2021_MenuaHovhannisyan"/>
 		</Unit>
 		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/RE.cpp">
