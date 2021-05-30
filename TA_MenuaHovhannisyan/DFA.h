@@ -6,7 +6,7 @@
 #include <string>
 #include <fstream>
 #include <tuple>
-#include "json.hpp"
+#include "../json.hpp"
 #include <iostream>
 #include <iomanip>
 #include <utility>

@@ -1,13 +1,4 @@
 "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua
 -- Configuring done
-CMake Error at CMakeLists.txt:16 (add_executable):
-  Cannot find source file:
-
-    Interface/main.ccp
-
-  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
-  .hpp .hxx .in .txx
-
-
 -- Generating done
-CMake Generate step failed.  Build files cannot be regenerated correctly.
+-- Build files have been written to: C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug

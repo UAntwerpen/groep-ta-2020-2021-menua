@@ -7,7 +7,69 @@
 	"CMAKE_SOURCE_DIR" : "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Interface/gui.h",
+			"MU",
+			"RIEJA2QBKY/moc_gui.cpp"
+		],
+		[
+			"C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Interface/mainwindow.h",
+			"MU",
+			"RIEJA2QBKY/moc_mainwindow.cpp"
+		],
+		[
+			"C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/DFA.h",
+			"MU",
+			"5CVMRZLH3Q/moc_DFA.cpp"
+		],
+		[
+			"C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/Edge.h",
+			"MU",
+			"5CVMRZLH3Q/moc_Edge.cpp"
+		],
+		[
+			"C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/NFA.h",
+			"MU",
+			"5CVMRZLH3Q/moc_NFA.cpp"
+		],
+		[
+			"C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/Node.h",
+			"MU",
+			"5CVMRZLH3Q/moc_Node.cpp"
+		],
+		[
+			"C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/RE.h",
+			"MU",
+			"5CVMRZLH3Q/moc_RE.cpp"
+		],
+		[
+			"C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/State.h",
+			"MU",
+			"5CVMRZLH3Q/moc_State.cpp"
+		],
+		[
+			"C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/Transition.h",
+			"MU",
+			"5CVMRZLH3Q/moc_Transition.cpp"
+		],
+		[
+			"C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/car.h",
+			"MU",
+			"EWIEGA46WW/moc_car.cpp"
+		],
+		[
+			"C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/shop.h",
+			"MU",
+			"EWIEGA46WW/moc_shop.cpp"
+		],
+		[
+			"C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/system.h",
+			"MU",
+			"EWIEGA46WW/moc_system.cpp"
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/TAProject2021_MenuaHovhannisyan_autogen/include",
 	"MOC_COMPILATION_FILE" : "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/TAProject2021_MenuaHovhannisyan_autogen/mocs_compilation.cpp",
@@ -56,7 +118,61 @@
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
 	"SETTINGS_FILE" : "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/CMakeFiles/TAProject2021_MenuaHovhannisyan_autogen.dir/AutogenUsed.txt",
-	"SOURCES" : [],
+	"SOURCES" : 
+	[
+		[
+			"C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Interface/gui.cpp",
+			"MU"
+		],
+		[
+			"C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Interface/mainwindow.cpp",
+			"MU"
+		],
+		[
+			"C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/DFA.cpp",
+			"MU"
+		],
+		[
+			"C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/Edge.cpp",
+			"MU"
+		],
+		[
+			"C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/NFA.cpp",
+			"MU"
+		],
+		[
+			"C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/Node.cpp",
+			"MU"
+		],
+		[
+			"C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/RE.cpp",
+			"MU"
+		],
+		[
+			"C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/State.cpp",
+			"MU"
+		],
+		[
+			"C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/Transition.cpp",
+			"MU"
+		],
+		[
+			"C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/car.cpp",
+			"MU"
+		],
+		[
+			"C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/main.cpp",
+			"MU"
+		],
+		[
+			"C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/shop.cpp",
+			"MU"
+		],
+		[
+			"C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/system.cpp",
+			"MU"
+		]
+	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
 	"UIC_SKIP" : [],
