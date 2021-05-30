@@ -5,6 +5,10 @@ C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Interface/mainwindow.h
  mmc:Q_OBJECT
  mdp:C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Interface/mainwindow.h
  mdp:C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/TAProject2021_MenuaHovhannisyan_autogen/moc_predefs.h
+ mdp:C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Interface/gui.h
+ mdp:C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Interface/mainwindow.h
+ mdp:C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/System.h
+ mdp:C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/json.hpp
  mdp:D:/QT/5.15.2/mingw81_64/include/QtCore/QDeadlineTimer
  mdp:D:/QT/5.15.2/mingw81_64/include/QtCore/QEvent
  mdp:D:/QT/5.15.2/mingw81_64/include/QtCore/QList
@@ -331,9 +335,11 @@ C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Interface/mainwindow.h
  mdp:D:/QT/5.15.2/mingw81_64/include/QtGui/qwindow.h
  mdp:D:/QT/5.15.2/mingw81_64/include/QtGui/qwindowdefs.h
  mdp:D:/QT/5.15.2/mingw81_64/include/QtGui/qwindowdefs_win.h
+ mdp:D:/QT/5.15.2/mingw81_64/include/QtWidgets/QApplication
  mdp:D:/QT/5.15.2/mingw81_64/include/QtWidgets/QMainWindow
  mdp:D:/QT/5.15.2/mingw81_64/include/QtWidgets/QPushButton
  mdp:D:/QT/5.15.2/mingw81_64/include/QtWidgets/qabstractbutton.h
+ mdp:D:/QT/5.15.2/mingw81_64/include/QtWidgets/qapplication.h
  mdp:D:/QT/5.15.2/mingw81_64/include/QtWidgets/qdialog.h
  mdp:D:/QT/5.15.2/mingw81_64/include/QtWidgets/qmainwindow.h
  mdp:D:/QT/5.15.2/mingw81_64/include/QtWidgets/qmessagebox.h
@@ -390,6 +396,7 @@ C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Interface/mainwindow.h
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.tcc
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/c++0x_warning.h
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h
+ mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/codecvt.h
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/concept_check.h
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cpp_type_traits.h
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_forced.h
@@ -398,9 +405,13 @@ C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Interface/mainwindow.h
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception.h
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_defines.h
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_ptr.h
+ mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/fstream.tcc
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functexcept.h
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functional_hash.h
+ mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/gslice.h
+ mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/gslice_array.h
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hash_bytes.h
+ mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/indirect_array.h
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/invoke.h
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc
@@ -410,6 +421,7 @@ C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Interface/mainwindow.h
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.h
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.tcc
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/localefwd.h
+ mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/mask_array.h
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/memoryfwd.h
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/move.h
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/nested_exception.h
@@ -424,6 +436,7 @@ C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Interface/mainwindow.h
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr.h
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr_atomic.h
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr_base.h
+ mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/slice_array.h
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/specfun.h
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_abs.h
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_function.h
@@ -455,13 +468,21 @@ C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Interface/mainwindow.h
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unique_ptr.h
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h
+ mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/valarray_after.h
+ mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/valarray_array.h
+ mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/valarray_array.tcc
+ mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/valarray_before.h
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc
+ mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cassert
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cctype
+ mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ciso646
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/clocale
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstddef
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint
+ mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdio
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib
+ mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstring
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwchar
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwctype
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/assertions.h
@@ -475,11 +496,14 @@ C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Interface/mainwindow.h
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/numeric_traits.h
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/string_conversions.h
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/type_traits.h
+ mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/forward_list
+ mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/fstream
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/functional
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/future
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/initializer_list
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iosfwd
+ mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iterator
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits
@@ -514,10 +538,13 @@ C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Interface/mainwindow.h
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/unordered_map
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility
+ mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/valarray
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h
+ mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h
+ mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h
  mdp:D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h
@@ -737,6 +764,7 @@ C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Interface/mainwindow.h
  mdp:D:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/wtypesbase.h
 C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/DFA.h
 C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/NFA.h
+C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Shop.h
 C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/Edge.h
 C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/Node.h
 C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/RE.h
@@ -750,6 +778,7 @@ C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Interface/mainwindow.cp
  uic:ui_mainwindow.h
 C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/DFA.cpp
 C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/Edge.cpp
+C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Shop.cpp
 C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/NFA.cpp
 C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/Node.cpp
 C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/RE.cpp
@@ -758,3 +787,7 @@ C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/Tr
 C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/car.cpp
 C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/main.cpp
 C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/shop.cpp
+C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Car.h
+C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/System.h
+C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Car.cpp
+C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/System.cpp

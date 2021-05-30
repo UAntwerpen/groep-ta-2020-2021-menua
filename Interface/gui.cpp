@@ -6,8 +6,12 @@
 
 int gui::run(int p_argc, char *p_argv[]) {
     QApplication a(p_argc, p_argv);
-    MainWindow w;
+    MainWindow w(filename);
     w.show();
 
     return a.exec();
+}
+
+gui::gui(const string &file) {
+    filename = file;
 }

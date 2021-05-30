@@ -3,13 +3,13 @@
 #include "TA_MenuaHovhannisyan/NFA.h"
 #include "TA_MenuaHovhannisyan/RE.h"
 #include "Interface/gui.h"
-
+#include "System.h"
 
 using namespace std;
 
 int main(int argc, char *argv[]) {
-    RE re("(m+y)*+(e+y+m+i)s");
-    gui g;
-    g.run(argc, argv);
+    System s("../data.json");
+    s.start(argc, argv);
+
     return 0;
 }

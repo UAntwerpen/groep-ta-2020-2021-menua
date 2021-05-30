@@ -7,6 +7,10 @@
 #include <QtGui>
 #include <qmessagebox.h>
 #include <QPushButton>
+#include "../System.h"
+#include "../json.hpp"
+#include <iostream>
+#include <fstream>
 
 using namespace std;
 
@@ -19,7 +23,8 @@ class MainWindow : public QMainWindow
     Q_OBJECT
 
 public:
-    explicit MainWindow(QWidget *parent = nullptr);
+    string filename;
+    explicit MainWindow(const string &file, QWidget *parent = nullptr);
     ~MainWindow();
 private slots:
     void search();

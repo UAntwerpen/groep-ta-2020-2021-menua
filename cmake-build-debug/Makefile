@@ -155,6 +155,33 @@ TAProject2021_MenuaHovhannisyan_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan_autogen.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan_autogen.dir/build
 .PHONY : TAProject2021_MenuaHovhannisyan_autogen/fast
 
+Car.obj: Car.cpp.obj
+
+.PHONY : Car.obj
+
+# target to build an object file
+Car.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Car.cpp.obj
+.PHONY : Car.cpp.obj
+
+Car.i: Car.cpp.i
+
+.PHONY : Car.i
+
+# target to preprocess a source file
+Car.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Car.cpp.i
+.PHONY : Car.cpp.i
+
+Car.s: Car.cpp.s
+
+.PHONY : Car.s
+
+# target to generate assembly for a file
+Car.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Car.cpp.s
+.PHONY : Car.cpp.s
+
 Interface/gui.obj: Interface/gui.cpp.obj
 
 .PHONY : Interface/gui.obj
@@ -208,6 +235,60 @@ Interface/mainwindow.s: Interface/mainwindow.cpp.s
 Interface/mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Interface/mainwindow.cpp.s
 .PHONY : Interface/mainwindow.cpp.s
+
+Shop.obj: Shop.cpp.obj
+
+.PHONY : Shop.obj
+
+# target to build an object file
+Shop.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Shop.cpp.obj
+.PHONY : Shop.cpp.obj
+
+Shop.i: Shop.cpp.i
+
+.PHONY : Shop.i
+
+# target to preprocess a source file
+Shop.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Shop.cpp.i
+.PHONY : Shop.cpp.i
+
+Shop.s: Shop.cpp.s
+
+.PHONY : Shop.s
+
+# target to generate assembly for a file
+Shop.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Shop.cpp.s
+.PHONY : Shop.cpp.s
+
+System.obj: System.cpp.obj
+
+.PHONY : System.obj
+
+# target to build an object file
+System.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/System.cpp.obj
+.PHONY : System.cpp.obj
+
+System.i: System.cpp.i
+
+.PHONY : System.i
+
+# target to preprocess a source file
+System.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/System.cpp.i
+.PHONY : System.cpp.i
+
+System.s: System.cpp.s
+
+.PHONY : System.s
+
+# target to generate assembly for a file
+System.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/System.cpp.s
+.PHONY : System.cpp.s
 
 TAProject2021_MenuaHovhannisyan_autogen/mocs_compilation.obj: TAProject2021_MenuaHovhannisyan_autogen/mocs_compilation.cpp.obj
 
@@ -425,33 +506,6 @@ TA_MenuaHovhannisyan/Transition.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/Transition.cpp.s
 .PHONY : TA_MenuaHovhannisyan/Transition.cpp.s
 
-car.obj: car.cpp.obj
-
-.PHONY : car.obj
-
-# target to build an object file
-car.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/car.cpp.obj
-.PHONY : car.cpp.obj
-
-car.i: car.cpp.i
-
-.PHONY : car.i
-
-# target to preprocess a source file
-car.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/car.cpp.i
-.PHONY : car.cpp.i
-
-car.s: car.cpp.s
-
-.PHONY : car.s
-
-# target to generate assembly for a file
-car.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/car.cpp.s
-.PHONY : car.cpp.s
-
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -479,60 +533,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-shop.obj: shop.cpp.obj
-
-.PHONY : shop.obj
-
-# target to build an object file
-shop.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/shop.cpp.obj
-.PHONY : shop.cpp.obj
-
-shop.i: shop.cpp.i
-
-.PHONY : shop.i
-
-# target to preprocess a source file
-shop.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/shop.cpp.i
-.PHONY : shop.cpp.i
-
-shop.s: shop.cpp.s
-
-.PHONY : shop.s
-
-# target to generate assembly for a file
-shop.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/shop.cpp.s
-.PHONY : shop.cpp.s
-
-system.obj: system.cpp.obj
-
-.PHONY : system.obj
-
-# target to build an object file
-system.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/system.cpp.obj
-.PHONY : system.cpp.obj
-
-system.i: system.cpp.i
-
-.PHONY : system.i
-
-# target to preprocess a source file
-system.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/system.cpp.i
-.PHONY : system.cpp.i
-
-system.s: system.cpp.s
-
-.PHONY : system.s
-
-# target to generate assembly for a file
-system.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/system.cpp.s
-.PHONY : system.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -543,12 +543,21 @@ help:
 	@echo ... rebuild_cache
 	@echo ... TAProject2021_MenuaHovhannisyan_autogen
 	@echo ... TAProject2021_MenuaHovhannisyan
+	@echo ... Car.obj
+	@echo ... Car.i
+	@echo ... Car.s
 	@echo ... Interface/gui.obj
 	@echo ... Interface/gui.i
 	@echo ... Interface/gui.s
 	@echo ... Interface/mainwindow.obj
 	@echo ... Interface/mainwindow.i
 	@echo ... Interface/mainwindow.s
+	@echo ... Shop.obj
+	@echo ... Shop.i
+	@echo ... Shop.s
+	@echo ... System.obj
+	@echo ... System.i
+	@echo ... System.s
 	@echo ... TAProject2021_MenuaHovhannisyan_autogen/mocs_compilation.obj
 	@echo ... TAProject2021_MenuaHovhannisyan_autogen/mocs_compilation.i
 	@echo ... TAProject2021_MenuaHovhannisyan_autogen/mocs_compilation.s
@@ -573,18 +582,9 @@ help:
 	@echo ... TA_MenuaHovhannisyan/Transition.obj
 	@echo ... TA_MenuaHovhannisyan/Transition.i
 	@echo ... TA_MenuaHovhannisyan/Transition.s
-	@echo ... car.obj
-	@echo ... car.i
-	@echo ... car.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... shop.obj
-	@echo ... shop.i
-	@echo ... shop.s
-	@echo ... system.obj
-	@echo ... system.i
-	@echo ... system.s
 .PHONY : help
 
 

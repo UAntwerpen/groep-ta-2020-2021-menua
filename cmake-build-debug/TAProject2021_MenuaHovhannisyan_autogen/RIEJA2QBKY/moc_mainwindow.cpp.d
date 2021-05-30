@@ -1,5 +1,9 @@
 C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/TAProject2021_MenuaHovhannisyan_autogen/RIEJA2QBKY/moc_mainwindow.cpp: C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Interface/mainwindow.h \
   C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/TAProject2021_MenuaHovhannisyan_autogen/moc_predefs.h \
+  C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Interface/gui.h \
+  C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Interface/mainwindow.h \
+  C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/System.h \
+  C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/json.hpp \
   D:/QT/5.15.2/mingw81_64/include/QtCore/QDeadlineTimer \
   D:/QT/5.15.2/mingw81_64/include/QtCore/QEvent \
   D:/QT/5.15.2/mingw81_64/include/QtCore/QList \
@@ -326,9 +330,11 @@ C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/TAPro
   D:/QT/5.15.2/mingw81_64/include/QtGui/qwindow.h \
   D:/QT/5.15.2/mingw81_64/include/QtGui/qwindowdefs.h \
   D:/QT/5.15.2/mingw81_64/include/QtGui/qwindowdefs_win.h \
+  D:/QT/5.15.2/mingw81_64/include/QtWidgets/QApplication \
   D:/QT/5.15.2/mingw81_64/include/QtWidgets/QMainWindow \
   D:/QT/5.15.2/mingw81_64/include/QtWidgets/QPushButton \
   D:/QT/5.15.2/mingw81_64/include/QtWidgets/qabstractbutton.h \
+  D:/QT/5.15.2/mingw81_64/include/QtWidgets/qapplication.h \
   D:/QT/5.15.2/mingw81_64/include/QtWidgets/qdialog.h \
   D:/QT/5.15.2/mingw81_64/include/QtWidgets/qmainwindow.h \
   D:/QT/5.15.2/mingw81_64/include/QtWidgets/qmessagebox.h \
@@ -385,6 +391,7 @@ C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/TAPro
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.tcc \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/c++0x_warning.h \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h \
+  D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/codecvt.h \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/concept_check.h \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cpp_type_traits.h \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_forced.h \
@@ -393,9 +400,13 @@ C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/TAPro
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception.h \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_defines.h \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_ptr.h \
+  D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/fstream.tcc \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functexcept.h \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functional_hash.h \
+  D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/gslice.h \
+  D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/gslice_array.h \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hash_bytes.h \
+  D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/indirect_array.h \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/invoke.h \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
@@ -405,6 +416,7 @@ C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/TAPro
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.h \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.tcc \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/localefwd.h \
+  D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/mask_array.h \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/memoryfwd.h \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/move.h \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/nested_exception.h \
@@ -419,6 +431,7 @@ C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/TAPro
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr.h \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr_atomic.h \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr_base.h \
+  D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/slice_array.h \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/specfun.h \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_abs.h \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_function.h \
@@ -450,13 +463,21 @@ C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/TAPro
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unique_ptr.h \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h \
+  D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/valarray_after.h \
+  D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/valarray_array.h \
+  D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/valarray_array.tcc \
+  D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/valarray_before.h \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
+  D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cassert \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cctype \
+  D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ciso646 \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/clocale \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstddef \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint \
+  D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdio \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib \
+  D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstring \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwchar \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwctype \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/assertions.h \
@@ -470,11 +491,14 @@ C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/TAPro
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/numeric_traits.h \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/string_conversions.h \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/type_traits.h \
+  D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/forward_list \
+  D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/fstream \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/functional \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/future \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/initializer_list \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iosfwd \
+  D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iterator \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
@@ -509,10 +533,13 @@ C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/TAPro
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/unordered_map \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility \
+  D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/valarray \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
+  D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+  D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
   D:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \

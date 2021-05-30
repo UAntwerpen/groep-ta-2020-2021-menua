@@ -1,0 +1,18 @@
+{
+	"Shops":[
+		{
+			"ShopId": "0",
+			"ShopName": "Garage BMW",
+			"ShopParts": "BMW"
+		}
+	],
+	
+	"Cars":[
+		{
+			"CarId": "0",
+			"CarBrand": "AUDI",
+			"CarRegex": "AUDI RS(1+2+3+4+5+6+7)",
+			"CarPartShops":"2-3-4-6"
+		}
+	]
+}

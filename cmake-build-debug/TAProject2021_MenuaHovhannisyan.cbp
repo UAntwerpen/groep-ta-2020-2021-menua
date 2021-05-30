@@ -110,6 +110,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Car.cpp">
+			<Option target="TAProject2021_MenuaHovhannisyan"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Car.h">
+			<Option target="TAProject2021_MenuaHovhannisyan"/>
+		</Unit>
 		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Interface/gui.cpp">
 			<Option target="TAProject2021_MenuaHovhannisyan"/>
 		</Unit>
@@ -120,6 +126,18 @@
 			<Option target="TAProject2021_MenuaHovhannisyan"/>
 		</Unit>
 		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Interface/mainwindow.h">
+			<Option target="TAProject2021_MenuaHovhannisyan"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Shop.cpp">
+			<Option target="TAProject2021_MenuaHovhannisyan"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Shop.h">
+			<Option target="TAProject2021_MenuaHovhannisyan"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/System.cpp">
+			<Option target="TAProject2021_MenuaHovhannisyan"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/System.h">
 			<Option target="TAProject2021_MenuaHovhannisyan"/>
 		</Unit>
 		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/DFA.cpp">
@@ -164,28 +182,10 @@
 		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/Transition.h">
 			<Option target="TAProject2021_MenuaHovhannisyan"/>
 		</Unit>
-		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/car.cpp">
-			<Option target="TAProject2021_MenuaHovhannisyan"/>
-		</Unit>
-		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/car.h">
-			<Option target="TAProject2021_MenuaHovhannisyan"/>
-		</Unit>
 		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/TAProject2021_MenuaHovhannisyan_autogen/mocs_compilation.cpp">
 			<Option target="TAProject2021_MenuaHovhannisyan"/>
 		</Unit>
 		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/main.cpp">
-			<Option target="TAProject2021_MenuaHovhannisyan"/>
-		</Unit>
-		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/shop.cpp">
-			<Option target="TAProject2021_MenuaHovhannisyan"/>
-		</Unit>
-		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/shop.h">
-			<Option target="TAProject2021_MenuaHovhannisyan"/>
-		</Unit>
-		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/system.cpp">
-			<Option target="TAProject2021_MenuaHovhannisyan"/>
-		</Unit>
-		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/system.h">
 			<Option target="TAProject2021_MenuaHovhannisyan"/>
 		</Unit>
 		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/CMakeLists.txt">
