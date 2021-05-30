@@ -1,3 +1,4 @@
 C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/CMakeFiles/TAProject2021_MenuaHovhannisyan.dir
 C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/CMakeFiles/TAProject2021_MenuaHovhannisyan_autogen.dir

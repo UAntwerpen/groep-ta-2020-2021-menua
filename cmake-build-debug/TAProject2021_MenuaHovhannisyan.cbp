@@ -5,7 +5,7 @@
 		<Option title="TAProject2021_MenuaHovhannisyan"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\QT\;CMake Files\QT\5.15.2\;CMake Files\QT\5.15.2\mingw81_64\;CMake Files\QT\5.15.2\mingw81_64\lib\;CMake Files\QT\5.15.2\mingw81_64\lib\cmake\;CMake Files\QT\5.15.2\mingw81_64\lib\cmake\Qt5\;CMake Files\QT\5.15.2\mingw81_64\lib\cmake\Qt5Widgets\;CMake Files\QT\5.15.2\mingw81_64\lib\cmake\Qt5Gui\;CMake Files\QT\5.15.2\mingw81_64\lib\cmake\Qt5Core\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug"/>
@@ -24,6 +24,16 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/TAProject2021_MenuaHovhannisyan_autogen/include"/>
+					<Add directory="D:/QT/5.15.2/mingw81_64/include"/>
+					<Add directory="D:/QT/5.15.2/mingw81_64/include/QtWidgets"/>
+					<Add directory="D:/QT/5.15.2/mingw81_64/include/QtGui"/>
+					<Add directory="D:/QT/5.15.2/mingw81_64/include/QtANGLE"/>
+					<Add directory="D:/QT/5.15.2/mingw81_64/include/QtCore"/>
+					<Add directory="D:/QT/5.15.2/mingw81_64/./mkspecs/win32-g++"/>
 					<Add directory="D:/QT/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="D:/QT/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="D:/QT/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -45,6 +55,16 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/TAProject2021_MenuaHovhannisyan_autogen/include"/>
+					<Add directory="D:/QT/5.15.2/mingw81_64/include"/>
+					<Add directory="D:/QT/5.15.2/mingw81_64/include/QtWidgets"/>
+					<Add directory="D:/QT/5.15.2/mingw81_64/include/QtGui"/>
+					<Add directory="D:/QT/5.15.2/mingw81_64/include/QtANGLE"/>
+					<Add directory="D:/QT/5.15.2/mingw81_64/include/QtCore"/>
+					<Add directory="D:/QT/5.15.2/mingw81_64/./mkspecs/win32-g++"/>
 					<Add directory="D:/QT/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="D:/QT/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="D:/QT/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -79,72 +99,118 @@
 					<DistClean command="D:/QT/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="TAProject2021_MenuaHovhannisyan_autogen">
+				<Option working_dir="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/QT/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/Makefile&quot;  VERBOSE=1 TAProject2021_MenuaHovhannisyan_autogen"/>
+					<CompileFile command="D:/QT/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/QT/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/QT/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
-		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/DFA.cpp">
-			<Option target="TAProject2021_MenuaHovhannisyan"/>
-		</Unit>
-		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/DFA.h">
-			<Option target="TAProject2021_MenuaHovhannisyan"/>
-		</Unit>
-		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/Edge.cpp">
-			<Option target="TAProject2021_MenuaHovhannisyan"/>
-		</Unit>
-		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/Edge.h">
-			<Option target="TAProject2021_MenuaHovhannisyan"/>
-		</Unit>
-		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/NFA.cpp">
-			<Option target="TAProject2021_MenuaHovhannisyan"/>
-		</Unit>
-		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/NFA.h">
-			<Option target="TAProject2021_MenuaHovhannisyan"/>
-		</Unit>
-		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/Node.cpp">
-			<Option target="TAProject2021_MenuaHovhannisyan"/>
-		</Unit>
-		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/Node.h">
-			<Option target="TAProject2021_MenuaHovhannisyan"/>
-		</Unit>
-		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/RE.cpp">
-			<Option target="TAProject2021_MenuaHovhannisyan"/>
-		</Unit>
-		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/RE.h">
-			<Option target="TAProject2021_MenuaHovhannisyan"/>
-		</Unit>
-		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/State.cpp">
-			<Option target="TAProject2021_MenuaHovhannisyan"/>
-		</Unit>
-		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/State.h">
-			<Option target="TAProject2021_MenuaHovhannisyan"/>
-		</Unit>
-		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/Transition.cpp">
-			<Option target="TAProject2021_MenuaHovhannisyan"/>
-		</Unit>
-		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/Transition.h">
-			<Option target="TAProject2021_MenuaHovhannisyan"/>
-		</Unit>
-		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/car.cpp">
-			<Option target="TAProject2021_MenuaHovhannisyan"/>
-		</Unit>
-		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/car.h">
-			<Option target="TAProject2021_MenuaHovhannisyan"/>
-		</Unit>
-		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/main.cpp">
-			<Option target="TAProject2021_MenuaHovhannisyan"/>
-		</Unit>
-		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/shop.cpp">
-			<Option target="TAProject2021_MenuaHovhannisyan"/>
-		</Unit>
-		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/shop.h">
-			<Option target="TAProject2021_MenuaHovhannisyan"/>
-		</Unit>
-		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/system.cpp">
-			<Option target="TAProject2021_MenuaHovhannisyan"/>
-		</Unit>
-		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/system.h">
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/TAProject2021_MenuaHovhannisyan_autogen/mocs_compilation.cpp">
 			<Option target="TAProject2021_MenuaHovhannisyan"/>
 		</Unit>
 		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/QT/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\QT\5.15.2\mingw81_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/QT/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\QT\5.15.2\mingw81_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/QT/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\QT\5.15.2\mingw81_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/QT/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\QT\5.15.2\mingw81_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/QT/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\QT\5.15.2\mingw81_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/QT/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\QT\5.15.2\mingw81_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/QT/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\QT\5.15.2\mingw81_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/QT/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake">
+			<Option virtualFolder="CMake Files\QT\5.15.2\mingw81_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/QT/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\QT\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/QT/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\QT\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/QT/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\QT\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/QT/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\QT\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/QT/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\QT\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/QT/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\QT\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/QT/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\QT\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/QT/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\QT\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/QT/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\QT\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/QT/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake">
+			<Option virtualFolder="CMake Files\QT\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/QT/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake">
+			<Option virtualFolder="CMake Files\QT\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/QT/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\QT\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/QT/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\QT\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/QT/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\QT\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/QT/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\QT\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/QT/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\QT\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/QT/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\QT\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/QT/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\QT\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/QT/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\QT\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/QT/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\QT\5.15.2\mingw81_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/QT/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\QT\5.15.2\mingw81_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/QT/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\QT\5.15.2\mingw81_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/QT/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\QT\5.15.2\mingw81_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/QT/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\QT\5.15.2\mingw81_64\lib\cmake\Qt5Core\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

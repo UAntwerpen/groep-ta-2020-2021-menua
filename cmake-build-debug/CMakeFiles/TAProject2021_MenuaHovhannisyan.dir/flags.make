@@ -4,7 +4,7 @@
 # compile CXX with D:/QT/Tools/mingw810_64/bin/g++.exe
 CXX_FLAGS = -g   -std=gnu++14
 
-CXX_DEFINES = 
+CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
 
-CXX_INCLUDES = 
+CXX_INCLUDES = @CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/includes_CXX.rsp
 

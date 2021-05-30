@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+3da214cf1d4200417a7afdf27f874414 CMakeFiles/TAProject2021_MenuaHovhannisyan_autogen

@@ -16,60 +16,6 @@ string RE::getRegex() {
     return regex;
 }
 
-NFA RE::toENFA() {
-    vector<State*> states;
-    vector<Transition*> transitions;
-    vector<string> alphabet;
-
-
-    
-
-
-
-
-    NFA nfa(states,transitions,alphabet);
-    nfa.print();
-    return nfa;
-}
-
-vector<string> RE::splitRegex() {
-    string re;
-    vector<string> tmpvec;
-    bool bracket = false;
-    for(auto i: regex){
-        if(i == '('){
-            bracket = true;
-            re += i;
-        }
-        else if(i == '+'){
-            if(!bracket){
-                tmpvec.push_back(re);
-                re = i;
-                tmpvec.push_back(re);
-                re = "";
-            }
-            else{
-                re += i;
-            }
-        }
-        else if(i == ')'){
-            bracket = false;
-            re += i;
-        }
-        else {
-            re += i;
-        }
-    }
-    tmpvec.push_back(re);
-
-    for(auto k: tmpvec){
-        cout << k << endl;
-        cout << "---" << endl;
-    }
-
-    return tmpvec;
-}
-
 tuple<vector<Node *>, vector<Edge *>> RE::unionFunc(const vector<string>& p_inputs) {
     vector<Node*> nodes;
     vector<Edge*> edges;
@@ -148,7 +94,7 @@ tuple<vector<Node *>, vector<Edge *>> RE::unionFunc(const vector<string>& p_inpu
     return result;
 }
 
-tuple<vector<Node *>, vector<Edge *>> RE::intersecFunc(const string &p_input) {
+tuple<vector<Node *>, vector<Edge *>> RE::intersecFunc(const vector<string> &p_input) {
     vector<Node*> nodes;
     vector<Edge*> edges;
     vector<vector<Node*>> epstran;
@@ -258,6 +204,219 @@ tuple<vector<Node *>, vector<Edge *>> RE::closureFunc(const string &p_input) {
 
     tuple<vector<Node *>, vector<Edge *>> result;
     result = make_tuple(nodes,edges);
+    return result;
+}
+
+map<vector<string>,bool> RE::splitUnion(const string &p_input) {
+    string re;
+    vector<string> tmpvec;
+    stack<char> bracketstack;
+    int uni = 0;
+    bool found = false;
+
+    for(auto i: p_input){
+        if(i == '+'){
+            if(bracketstack.empty()){
+                uni += 1;
+                tmpvec.push_back(re);
+                re = i;
+                tmpvec.push_back(re);
+                re = "";
+            }
+            else{
+                re += i;
+            }
+
+        }
+        else if(i == '('){
+            bracketstack.push(i);
+            re += i;
+        }
+        else if(i==')'){
+            if(!bracketstack.empty()){
+                bracketstack.pop();
+                re += i;
+            }
+            else{
+                re += i;
+            }
+
+        }
+        else{
+            re +=i;
+        }
+
+    }
+    tmpvec.push_back(re);
+
+    for(auto k : tmpvec){
+        cout << k << endl;
+    }
+
+    if(uni>=1){
+        found = true;
+    }
+
+    map<vector<string>, bool> result;
+
+    result.insert(pair<vector<string>, bool>(tmpvec, found));
+
+    return result;
+}
+
+map<vector<string>, bool> RE::splitIntersec(const string &p_input) {
+    string re;
+    bool star = false;
+    vector<string> tmpvec;
+    stack<char> bracketstack;
+    bool found = false;
+
+    for (int i = 0; i < p_input.size(); ++i) {
+        if(star){
+            star = false;
+            continue;
+        }
+        if(p_input.at(i) == '('){
+
+            bracketstack.push(p_input.at(i));
+            re += p_input.at(i);
+        }
+        else if(p_input.at(i) ==')'){
+            bracketstack.pop();
+            re += p_input.at(i);
+            if(bracketstack.empty()){
+                if(i != p_input.size()-1){
+                    if(p_input.at(i+1) == '*'){
+                        star = true;
+                        re += p_input.at(i+1);
+                    }
+                }
+                tmpvec.push_back(re);
+                re = "";
+            }
+        }
+        else{
+            if(!bracketstack.empty()){
+                re += p_input.at(i);
+            }
+            else{
+                re += p_input.at(i);
+                tmpvec.push_back(re);
+            }
+        }
+    }
+    if(tmpvec.size()>1){
+        found = true;
+    }
+
+    for(auto k : tmpvec){
+        cout << k << endl;
+    }
+
+    map<vector<string>, bool> result;
+
+    result.insert(pair<vector<string>, bool>(tmpvec, found));
+
+    return result;
+}
+
+map<vector<string>, bool> RE::splitClosure(const string &p_input) {
+    string re;
+    vector<string> tmpvec;
+    bool found = false;
+
+    for (auto i : p_input) {
+        if(i == '*'){
+            found = true;
+            break;
+        }
+        else{
+            re += i;
+        }
+
+    }
+
+    tmpvec.push_back(re);
+    map<vector<string>, bool> result;
+    result.insert(pair<vector<string>, bool>(tmpvec, found));
+
+    cout << re << endl;
+
+    return result;
+}
+
+map<vector<string>, bool> RE::splitBrackets(const string &p_input) {
+    string re;
+    vector<string> tmpvec;
+    stack<char> bracketstack;
+    bool found = false;
+
+    for (auto i: p_input) {
+        if(i == '('){
+            if(bracketstack.empty()){
+                bracketstack.push(i);
+            }
+            else{
+                bracketstack.push(i);
+                re += i;
+            }
+        }
+        else if(i == ')'){
+            if(!bracketstack.empty()){
+                bracketstack.pop();
+                if(bracketstack.empty()){
+                    found = true;
+                }
+                else{
+                    re += i;
+                }
+            }
+        }
+        else{
+            re += i;
+        }
+    }
+    tmpvec.push_back(re);
+
+    for(auto k : tmpvec){
+        cout << k << endl;
+    }
+
+    map<vector<string>, bool> result;
+    result.insert(pair<vector<string>, bool>(tmpvec, found));
+
+    return result;
+}
+
+tuple<vector<Node *>, vector<Edge *>> RE::toENFA(const string &p_input) {
+    if(foundFunc(splitUnion(p_input))){
+         edges = get<1>(unionFunc(inputFunc(splitUnion(p_input))));
+         for(auto i: edges){
+             if(i->symbol.size()>1){
+
+                 return toENFA(i->symbol);
+             }
+         }
+
+    }
+
+
+    return tuple<vector<Node *>, vector<Edge *>>();
+}
+
+bool RE::foundFunc(const map<vector<string>, bool> &p_input) {
+    bool found = false;
+    for (auto item: p_input){
+        found = item.second;
+    }
+    return found;
+}
+
+vector<string> RE::inputFunc(const map<vector<string>, bool> &p_input) {
+    vector<string> result;
+    for (auto item: p_input){
+        result = item.first;
+    }
     return result;
 }
 

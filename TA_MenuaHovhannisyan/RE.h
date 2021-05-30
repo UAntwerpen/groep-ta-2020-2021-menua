@@ -8,6 +8,7 @@
 #include "Transition.h"
 #include "Node.h"
 #include "Edge.h"
+#include <stack>
 using namespace std;
 
 
@@ -18,20 +19,28 @@ using namespace std;
 class RE {
 private:
     string regex;
+    vector<Node*> nodes;
+    vector<Edge*> edges;
 
 public:
     RE(const string &regex);
-    NFA toENFA();
     void setRegex(const string &p_regex);
     string getRegex();
-    vector<string> splitRegex();
+
+    tuple<vector<Node*>, vector<Edge*>> toENFA(const string &p_input);
+
+    bool foundFunc(const map<vector<string>, bool> &p_input);
+
+    vector<string> inputFunc(const map<vector<string>, bool> &p_input);
+
+    map<vector<string>, bool> splitUnion(const string &p_input);
+    map<vector<string>, bool> splitIntersec(const string &p_input);
+    map<vector<string>, bool> splitClosure(const string &p_input);
+    map<vector<string>, bool> splitBrackets(const string &p_input);
 
     tuple<vector<Node*>, vector<Edge*>> unionFunc(const vector<string>& p_inputs);
-    tuple<vector<Node*>, vector<Edge*>> intersecFunc(const string& p_input);
+    tuple<vector<Node*>, vector<Edge*>> intersecFunc(const vector<string>& p_input);
     tuple<vector<Node *>, vector<Edge *>> closureFunc(const string& p_input);
-
-
-
 
 };
 
