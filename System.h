@@ -6,6 +6,11 @@
 #include "json.hpp"
 #include <iostream>
 #include <fstream>
+#include <QApplication>
+#include "Shop.h"
+#include "Car.h"
+#include <sstream>
+#include "TA_MenuaHovhannisyan/RE.h"
 
 
 using namespace std;
@@ -19,11 +24,23 @@ class gui;
 class System {
 private:
     string file;
+    vector<Car*> cars;
+    vector<Shop*> shops;
 public:
     System(const string &file_name);
 
     int start(int p_argc, char *p_argv[]);
+
+    void parserJson(const string &file_name);
+
+    vector<Car*> getCars();
+    vector<Shop*> getShops();
+
+    Car* checkinput(const string &p_input);
+
+    vector<Shop*> getCarShop(Car* p_car,vector<Shop*> p_shop);
+    string getShopBrand(vector<string> shopbrands);
 };
 
-#include "Interface/gui.h"
+#include "Interface/mainwindow.h"
 #endif //TAPROJECT2021_MENUAHOVHANNISYAN_SYSTEM_H

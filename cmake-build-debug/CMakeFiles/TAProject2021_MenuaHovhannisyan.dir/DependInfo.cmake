@@ -4,8 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Interface/gui.cpp" "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Interface/gui.cpp.obj"
+  "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Car.cpp" "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Car.cpp.obj"
+  "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Interface/SubInterface/subwindow.cpp" "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Interface/SubInterface/subwindow.cpp.obj"
   "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Interface/mainwindow.cpp" "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Interface/mainwindow.cpp.obj"
+  "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Shop.cpp" "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Shop.cpp.obj"
+  "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/System.cpp" "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/System.cpp.obj"
   "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/TAProject2021_MenuaHovhannisyan_autogen/mocs_compilation.cpp" "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TAProject2021_MenuaHovhannisyan_autogen/mocs_compilation.cpp.obj"
   "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/DFA.cpp" "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/DFA.cpp.obj"
   "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/Edge.cpp" "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/Edge.cpp.obj"
@@ -14,10 +17,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/RE.cpp" "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/RE.cpp.obj"
   "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/State.cpp" "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/State.cpp.obj"
   "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/Transition.cpp" "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/Transition.cpp.obj"
-  "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Car.cpp" "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/car.cpp.obj"
   "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/main.cpp" "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/main.cpp.obj"
-  "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Shop.cpp" "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/shop.cpp.obj"
-  "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/System.cpp" "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/system.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

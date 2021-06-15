@@ -9,8 +9,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>200</width>
-    <height>461</height>
+    <width>448</width>
+    <height>441</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -36,8 +36,8 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>70</y>
-      <width>200</width>
+      <y>60</y>
+      <width>451</width>
       <height>391</height>
      </rect>
     </property>
@@ -59,30 +59,8 @@
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>201</width>
-      <height>91</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(34, 36, 42);</string>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>500</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_3">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>650</y>
-      <width>1261</width>
-      <height>51</height>
+      <width>451</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -101,9 +79,9 @@
    <widget class="QPushButton" name="search_btn">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>140</y>
-      <width>161</width>
+      <x>250</x>
+      <y>80</y>
+      <width>81</width>
       <height>21</height>
      </rect>
     </property>
@@ -130,18 +108,18 @@ background-color: rgb(21, 43, 79);
    <widget class="QLineEdit" name="input_txt">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>100</y>
-      <width>101</width>
-      <height>20</height>
+      <x>100</x>
+      <y>80</y>
+      <width>131</width>
+      <height>21</height>
      </rect>
     </property>
    </widget>
    <widget class="QLabel" name="label1">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>100</y>
+      <x>20</x>
+      <y>80</y>
       <width>71</width>
       <height>16</height>
      </rect>
@@ -159,8 +137,8 @@ font: bold Calibri;</string>
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>170</y>
-      <width>181</width>
+      <y>390</y>
+      <width>421</width>
       <height>20</height>
      </rect>
     </property>
@@ -175,14 +153,14 @@ font: bold Calibri;</string>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>50</x>
+      <x>130</x>
       <y>10</y>
       <width>111</width>
       <height>31</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(34, 36, 42);
+     <string notr="true">background-color: none;
 color: rgb(255, 255, 255);
 font: bold Calibri;
 font-size: 20px;</string>
@@ -194,14 +172,14 @@ font-size: 20px;</string>
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>40</y>
+      <x>240</x>
+      <y>10</y>
       <width>91</width>
-      <height>20</height>
+      <height>31</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(34, 36, 42);
+     <string notr="true">background-color: none;
 color: rgb(66, 135, 245);
 font: bold Calibri;
 font-size: 20px;</string>
@@ -214,48 +192,8 @@ font-size: 20px;</string>
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>80</y>
-      <width>181</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(47, 50, 58);
-</string>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_6">
-    <property name="geometry">
-     <rect>
-      <x>450</x>
-      <y>660</y>
-      <width>531</width>
-      <height>81</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(34, 36, 42);
-color: white;
-font: bold 8px Calibri</string>
-    </property>
-    <property name="text">
-     <string>© Copyrights Denis Yusuf &amp; Menua Hovhannisyan. All Rights Reserved
-
-Vaccin Distributie Simulatie</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignHCenter|Qt::AlignTop</set>
-    </property>
-   </widget>
-   <widget class="Line" name="line_9">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>410</y>
-      <width>181</width>
+      <y>110</y>
+      <width>421</width>
       <height>20</height>
      </rect>
     </property>
@@ -270,8 +208,8 @@ Vaccin Distributie Simulatie</string>
    <widget class="QLabel" name="label2">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>430</y>
+      <x>170</x>
+      <y>410</y>
       <width>121</width>
       <height>16</height>
      </rect>
@@ -289,9 +227,9 @@ font: bold Calibri;</string>
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>190</y>
-      <width>181</width>
-      <height>221</height>
+      <y>130</y>
+      <width>421</width>
+      <height>261</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -300,8 +238,70 @@ color: white;
 border: none;</string>
     </property>
    </widget>
+   <widget class="Line" name="line_7">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>50</y>
+      <width>451</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: none;
+</string>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="error_lbl">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>130</y>
+      <width>311</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: none;
+color: rgb(199, 56, 56);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="add_btn">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>80</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+      background-color: rgb(142, 209, 119);
+      border-radius: 10px;
+      font: bold 14px Calibri;
+color:white;
+  }
+
+QPushButton:hover{
+ background-color: rgb(123, 209, 94);
+}
+
+QPushButton:pressed{
+background-color: rgb(96, 163, 73);
+}</string>
+    </property>
+    <property name="text">
+     <string>Add Shop</string>
+    </property>
+   </widget>
    <zorder>line_2</zorder>
-   <zorder>line_3</zorder>
    <zorder>line</zorder>
    <zorder>search_btn</zorder>
    <zorder>input_txt</zorder>
@@ -310,10 +310,11 @@ border: none;</string>
    <zorder>label_2</zorder>
    <zorder>label_3</zorder>
    <zorder>line_6</zorder>
-   <zorder>label_6</zorder>
-   <zorder>line_9</zorder>
    <zorder>label2</zorder>
    <zorder>result_lw</zorder>
+   <zorder>line_7</zorder>
+   <zorder>error_lbl</zorder>
+   <zorder>add_btn</zorder>
   </widget>
  </widget>
  <resources/>

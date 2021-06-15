@@ -15,6 +15,7 @@ public:
     Node* start;
     Node* end;
     string symbol;
+
 };
 
 #include "Node.h"

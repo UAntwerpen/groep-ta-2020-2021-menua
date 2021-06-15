@@ -258,19 +258,19 @@ CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Interface/mainwindow.cpp.s: cmake
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Interface/mainwindow.cpp.s"
 	D:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua\Interface\mainwindow.cpp -o CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\Interface\mainwindow.cpp.s
 
-CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Interface/gui.cpp.obj: CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/flags.make
-CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Interface/gui.cpp.obj: CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/includes_CXX.rsp
-CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Interface/gui.cpp.obj: ../Interface/gui.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Interface/gui.cpp.obj"
-	D:\QT\Tools\mingw810_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\Interface\gui.cpp.obj -c C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua\Interface\gui.cpp
+CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Interface/SubInterface/subwindow.cpp.obj: CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/flags.make
+CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Interface/SubInterface/subwindow.cpp.obj: CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/includes_CXX.rsp
+CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Interface/SubInterface/subwindow.cpp.obj: ../Interface/SubInterface/subwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Interface/SubInterface/subwindow.cpp.obj"
+	D:\QT\Tools\mingw810_64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\Interface\SubInterface\subwindow.cpp.obj -c C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua\Interface\SubInterface\subwindow.cpp
 
-CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Interface/gui.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Interface/gui.cpp.i"
-	D:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua\Interface\gui.cpp > CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\Interface\gui.cpp.i
+CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Interface/SubInterface/subwindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Interface/SubInterface/subwindow.cpp.i"
+	D:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua\Interface\SubInterface\subwindow.cpp > CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\Interface\SubInterface\subwindow.cpp.i
 
-CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Interface/gui.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Interface/gui.cpp.s"
-	D:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua\Interface\gui.cpp -o CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\Interface\gui.cpp.s
+CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Interface/SubInterface/subwindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Interface/SubInterface/subwindow.cpp.s"
+	D:\QT\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Menua\Documents\GitHub\groep-ta-2020-2021-menua\Interface\SubInterface\subwindow.cpp -o CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\Interface\SubInterface\subwindow.cpp.s
 
 # Object files for target TAProject2021_MenuaHovhannisyan
 TAProject2021_MenuaHovhannisyan_OBJECTS = \
@@ -287,7 +287,7 @@ TAProject2021_MenuaHovhannisyan_OBJECTS = \
 "CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/Node.cpp.obj" \
 "CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/Edge.cpp.obj" \
 "CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Interface/mainwindow.cpp.obj" \
-"CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Interface/gui.cpp.obj"
+"CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Interface/SubInterface/subwindow.cpp.obj"
 
 # External object files for target TAProject2021_MenuaHovhannisyan
 TAProject2021_MenuaHovhannisyan_EXTERNAL_OBJECTS =
@@ -305,7 +305,7 @@ TAProject2021_MenuaHovhannisyan.exe: CMakeFiles/TAProject2021_MenuaHovhannisyan.
 TAProject2021_MenuaHovhannisyan.exe: CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/Node.cpp.obj
 TAProject2021_MenuaHovhannisyan.exe: CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/TA_MenuaHovhannisyan/Edge.cpp.obj
 TAProject2021_MenuaHovhannisyan.exe: CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Interface/mainwindow.cpp.obj
-TAProject2021_MenuaHovhannisyan.exe: CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Interface/gui.cpp.obj
+TAProject2021_MenuaHovhannisyan.exe: CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Interface/SubInterface/subwindow.cpp.obj
 TAProject2021_MenuaHovhannisyan.exe: CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/build.make
 TAProject2021_MenuaHovhannisyan.exe: D:/QT/5.15.2/mingw81_64/lib/libQt5Widgets.a
 TAProject2021_MenuaHovhannisyan.exe: D:/QT/5.15.2/mingw81_64/lib/libQt5Gui.a

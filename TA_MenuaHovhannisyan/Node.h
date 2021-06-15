@@ -13,7 +13,9 @@ class Edge;
 class Node {
 public:
     vector<Edge*> outgoing;
-    vector<Edge*> incomming;
+    vector<Edge*> incoming;
+
+    void replaceIncoming(Node* p_node);
 
 };
 

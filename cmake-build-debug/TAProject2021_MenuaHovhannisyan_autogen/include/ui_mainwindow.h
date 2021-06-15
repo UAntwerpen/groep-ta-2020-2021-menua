@@ -27,7 +27,6 @@ public:
     QWidget *centralwidget;
     QFrame *line;
     QFrame *line_2;
-    QFrame *line_3;
     QPushButton *search_btn;
     QLineEdit *input_txt;
     QLabel *label1;
@@ -35,17 +34,18 @@ public:
     QLabel *label_2;
     QLabel *label_3;
     QFrame *line_6;
-    QLabel *label_6;
-    QFrame *line_9;
     QLabel *label2;
     QListWidget *result_lw;
+    QFrame *line_7;
+    QLabel *error_lbl;
+    QPushButton *add_btn;
 
     void setupUi(QMainWindow *MainWindow)
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
         MainWindow->setEnabled(true);
-        MainWindow->resize(200, 461);
+        MainWindow->resize(448, 441);
         QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
@@ -57,28 +57,21 @@ public:
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         line = new QFrame(centralwidget);
         line->setObjectName(QString::fromUtf8("line"));
-        line->setGeometry(QRect(0, 70, 200, 391));
+        line->setGeometry(QRect(0, 60, 451, 391));
         line->setStyleSheet(QString::fromUtf8("color: rgb(47, 50, 58);"));
         line->setFrameShadow(QFrame::Plain);
         line->setLineWidth(500);
         line->setFrameShape(QFrame::VLine);
         line_2 = new QFrame(centralwidget);
         line_2->setObjectName(QString::fromUtf8("line_2"));
-        line_2->setGeometry(QRect(0, 0, 201, 91));
+        line_2->setGeometry(QRect(0, 0, 451, 61));
         line_2->setStyleSheet(QString::fromUtf8("color: rgb(34, 36, 42);"));
         line_2->setFrameShadow(QFrame::Plain);
         line_2->setLineWidth(500);
         line_2->setFrameShape(QFrame::HLine);
-        line_3 = new QFrame(centralwidget);
-        line_3->setObjectName(QString::fromUtf8("line_3"));
-        line_3->setGeometry(QRect(20, 650, 1261, 51));
-        line_3->setStyleSheet(QString::fromUtf8("color: rgb(34, 36, 42);"));
-        line_3->setFrameShadow(QFrame::Plain);
-        line_3->setLineWidth(500);
-        line_3->setFrameShape(QFrame::HLine);
         search_btn = new QPushButton(centralwidget);
         search_btn->setObjectName(QString::fromUtf8("search_btn"));
-        search_btn->setGeometry(QRect(20, 140, 161, 21));
+        search_btn->setGeometry(QRect(250, 80, 81, 21));
         search_btn->setStyleSheet(QString::fromUtf8("QPushButton{\n"
 "      background-color: rgb(66, 135, 245);\n"
 "      border-radius: 10px;\n"
@@ -95,70 +88,84 @@ public:
 "}"));
         input_txt = new QLineEdit(centralwidget);
         input_txt->setObjectName(QString::fromUtf8("input_txt"));
-        input_txt->setGeometry(QRect(90, 100, 101, 20));
+        input_txt->setGeometry(QRect(100, 80, 131, 21));
         label1 = new QLabel(centralwidget);
         label1->setObjectName(QString::fromUtf8("label1"));
-        label1->setGeometry(QRect(10, 100, 71, 16));
+        label1->setGeometry(QRect(20, 80, 71, 16));
         label1->setStyleSheet(QString::fromUtf8("background-color: rgb(47,50,58);\n"
 "color: rgb(255, 255, 255);\n"
 "font: bold Calibri;"));
         line_5 = new QFrame(centralwidget);
         line_5->setObjectName(QString::fromUtf8("line_5"));
-        line_5->setGeometry(QRect(10, 170, 181, 20));
+        line_5->setGeometry(QRect(10, 390, 421, 20));
         line_5->setStyleSheet(QString::fromUtf8("background-color: rgb(47, 50, 58);\n"
 ""));
         line_5->setFrameShape(QFrame::HLine);
         line_5->setFrameShadow(QFrame::Sunken);
         label_2 = new QLabel(centralwidget);
         label_2->setObjectName(QString::fromUtf8("label_2"));
-        label_2->setGeometry(QRect(50, 10, 111, 31));
-        label_2->setStyleSheet(QString::fromUtf8("background-color: rgb(34, 36, 42);\n"
+        label_2->setGeometry(QRect(130, 10, 111, 31));
+        label_2->setStyleSheet(QString::fromUtf8("background-color: none;\n"
 "color: rgb(255, 255, 255);\n"
 "font: bold Calibri;\n"
 "font-size: 20px;"));
         label_3 = new QLabel(centralwidget);
         label_3->setObjectName(QString::fromUtf8("label_3"));
-        label_3->setGeometry(QRect(60, 40, 91, 20));
-        label_3->setStyleSheet(QString::fromUtf8("background-color: rgb(34, 36, 42);\n"
+        label_3->setGeometry(QRect(240, 10, 91, 31));
+        label_3->setStyleSheet(QString::fromUtf8("background-color: none;\n"
 "color: rgb(66, 135, 245);\n"
 "font: bold Calibri;\n"
 "font-size: 20px;"));
         line_6 = new QFrame(centralwidget);
         line_6->setObjectName(QString::fromUtf8("line_6"));
-        line_6->setGeometry(QRect(10, 80, 181, 20));
+        line_6->setGeometry(QRect(10, 110, 421, 20));
         line_6->setStyleSheet(QString::fromUtf8("background-color: rgb(47, 50, 58);\n"
 ""));
         line_6->setFrameShape(QFrame::HLine);
         line_6->setFrameShadow(QFrame::Sunken);
-        label_6 = new QLabel(centralwidget);
-        label_6->setObjectName(QString::fromUtf8("label_6"));
-        label_6->setGeometry(QRect(450, 660, 531, 81));
-        label_6->setStyleSheet(QString::fromUtf8("background-color: rgb(34, 36, 42);\n"
-"color: white;\n"
-"font: bold 8px Calibri"));
-        label_6->setAlignment(Qt::AlignHCenter|Qt::AlignTop);
-        line_9 = new QFrame(centralwidget);
-        line_9->setObjectName(QString::fromUtf8("line_9"));
-        line_9->setGeometry(QRect(10, 410, 181, 20));
-        line_9->setStyleSheet(QString::fromUtf8("background-color: rgb(47, 50, 58);\n"
-""));
-        line_9->setFrameShape(QFrame::HLine);
-        line_9->setFrameShadow(QFrame::Sunken);
         label2 = new QLabel(centralwidget);
         label2->setObjectName(QString::fromUtf8("label2"));
-        label2->setGeometry(QRect(40, 430, 121, 16));
+        label2->setGeometry(QRect(170, 410, 121, 16));
         label2->setStyleSheet(QString::fromUtf8("background-color: rgb(47,50,58);\n"
 "color: rgb(255, 255, 255);\n"
 "font: bold Calibri;"));
         result_lw = new QListWidget(centralwidget);
         result_lw->setObjectName(QString::fromUtf8("result_lw"));
-        result_lw->setGeometry(QRect(10, 190, 181, 221));
+        result_lw->setGeometry(QRect(10, 130, 421, 261));
         result_lw->setStyleSheet(QString::fromUtf8("background-color: rgb(47, 50, 58);\n"
 "color: white;\n"
 "border: none;"));
+        line_7 = new QFrame(centralwidget);
+        line_7->setObjectName(QString::fromUtf8("line_7"));
+        line_7->setGeometry(QRect(0, 50, 451, 20));
+        line_7->setStyleSheet(QString::fromUtf8("background-color: none;\n"
+""));
+        line_7->setFrameShape(QFrame::HLine);
+        line_7->setFrameShadow(QFrame::Sunken);
+        error_lbl = new QLabel(centralwidget);
+        error_lbl->setObjectName(QString::fromUtf8("error_lbl"));
+        error_lbl->setGeometry(QRect(10, 130, 311, 16));
+        error_lbl->setStyleSheet(QString::fromUtf8("background-color: none;\n"
+"color: rgb(199, 56, 56);"));
+        add_btn = new QPushButton(centralwidget);
+        add_btn->setObjectName(QString::fromUtf8("add_btn"));
+        add_btn->setGeometry(QRect(350, 80, 81, 21));
+        add_btn->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"      background-color: rgb(142, 209, 119);\n"
+"      border-radius: 10px;\n"
+"      font: bold 14px Calibri;\n"
+"color:white;\n"
+"  }\n"
+"\n"
+"QPushButton:hover{\n"
+" background-color: rgb(123, 209, 94);\n"
+"}\n"
+"\n"
+"QPushButton:pressed{\n"
+"background-color: rgb(96, 163, 73);\n"
+"}"));
         MainWindow->setCentralWidget(centralwidget);
         line_2->raise();
-        line_3->raise();
         line->raise();
         search_btn->raise();
         input_txt->raise();
@@ -167,10 +174,11 @@ public:
         label_2->raise();
         label_3->raise();
         line_6->raise();
-        label_6->raise();
-        line_9->raise();
         label2->raise();
         result_lw->raise();
+        line_7->raise();
+        error_lbl->raise();
+        add_btn->raise();
 
         retranslateUi(MainWindow);
 
@@ -187,10 +195,9 @@ public:
         label1->setText(QCoreApplication::translate("MainWindow", "Model Naam: ", nullptr));
         label_2->setText(QCoreApplication::translate("MainWindow", "Car Dealer", nullptr));
         label_3->setText(QCoreApplication::translate("MainWindow", "Founder", nullptr));
-        label_6->setText(QCoreApplication::translate("MainWindow", "\302\251 Copyrights Denis Yusuf & Menua Hovhannisyan. All Rights Reserved\n"
-"\n"
-"Vaccin Distributie Simulatie", nullptr));
         label2->setText(QCoreApplication::translate("MainWindow", "Menua Hovhannisyan", nullptr));
+        error_lbl->setText(QString());
+        add_btn->setText(QCoreApplication::translate("MainWindow", "Add Shop", nullptr));
     } // retranslateUi
 
 };

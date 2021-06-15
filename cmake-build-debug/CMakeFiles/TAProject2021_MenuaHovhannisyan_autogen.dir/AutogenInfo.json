@@ -15,9 +15,9 @@
 			"EWIEGA46WW/moc_Car.cpp"
 		],
 		[
-			"C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Interface/gui.h",
+			"C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Interface/SubInterface/subwindow.h",
 			"MU",
-			"RIEJA2QBKY/moc_gui.cpp"
+			"SUFPD7APM5/moc_subwindow.cpp"
 		],
 		[
 			"C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Interface/mainwindow.h",
@@ -125,7 +125,7 @@
 			"MU"
 		],
 		[
-			"C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Interface/gui.cpp",
+			"C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Interface/SubInterface/subwindow.cpp",
 			"MU"
 		],
 		[

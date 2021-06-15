@@ -23,14 +23,15 @@ class MainWindow : public QMainWindow
     Q_OBJECT
 
 public:
-    string filename;
-    explicit MainWindow(const string &file, QWidget *parent = nullptr);
+    explicit MainWindow(System* p_system, QWidget *parent = nullptr);
     ~MainWindow();
+
 private slots:
     void search();
 
 private:
     Ui::MainWindow *ui;
+    System* system;
 
 
 };

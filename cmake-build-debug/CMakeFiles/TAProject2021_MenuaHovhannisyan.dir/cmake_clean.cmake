@@ -3,7 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/TAProject2021_MenuaHovhannisyan_autogen.dir/ParseCache.txt"
   "TAProject2021_MenuaHovhannisyan_autogen"
   "CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Car.cpp.obj"
-  "CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Interface/gui.cpp.obj"
+  "CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Interface/SubInterface/subwindow.cpp.obj"
   "CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Interface/mainwindow.cpp.obj"
   "CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Shop.cpp.obj"
   "CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/System.cpp.obj"
