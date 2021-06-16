@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QComboBox>
 #include <QtWidgets/QFrame>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
@@ -38,14 +39,23 @@ public:
     QListWidget *result_lw;
     QFrame *line_7;
     QLabel *error_lbl;
+    QFrame *line_8;
+    QComboBox *shopbrands_combo;
+    QLabel *label1_3;
     QPushButton *add_btn;
+    QLabel *label1_2;
+    QLineEdit *shopname_txt;
+    QLineEdit *shopaddress_txt;
+    QLabel *label1_4;
+    QLabel *error_lbl_2;
+    QLabel *error_lbl_3;
 
     void setupUi(QMainWindow *MainWindow)
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
         MainWindow->setEnabled(true);
-        MainWindow->resize(448, 441);
+        MainWindow->resize(448, 627);
         QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
@@ -57,7 +67,7 @@ public:
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         line = new QFrame(centralwidget);
         line->setObjectName(QString::fromUtf8("line"));
-        line->setGeometry(QRect(0, 60, 451, 391));
+        line->setGeometry(QRect(0, 60, 451, 581));
         line->setStyleSheet(QString::fromUtf8("color: rgb(47, 50, 58);"));
         line->setFrameShadow(QFrame::Plain);
         line->setLineWidth(500);
@@ -71,7 +81,7 @@ public:
         line_2->setFrameShape(QFrame::HLine);
         search_btn = new QPushButton(centralwidget);
         search_btn->setObjectName(QString::fromUtf8("search_btn"));
-        search_btn->setGeometry(QRect(250, 80, 81, 21));
+        search_btn->setGeometry(QRect(280, 80, 141, 21));
         search_btn->setStyleSheet(QString::fromUtf8("QPushButton{\n"
 "      background-color: rgb(66, 135, 245);\n"
 "      border-radius: 10px;\n"
@@ -97,7 +107,7 @@ public:
 "font: bold Calibri;"));
         line_5 = new QFrame(centralwidget);
         line_5->setObjectName(QString::fromUtf8("line_5"));
-        line_5->setGeometry(QRect(10, 390, 421, 20));
+        line_5->setGeometry(QRect(10, 580, 421, 20));
         line_5->setStyleSheet(QString::fromUtf8("background-color: rgb(47, 50, 58);\n"
 ""));
         line_5->setFrameShape(QFrame::HLine);
@@ -125,7 +135,7 @@ public:
         line_6->setFrameShadow(QFrame::Sunken);
         label2 = new QLabel(centralwidget);
         label2->setObjectName(QString::fromUtf8("label2"));
-        label2->setGeometry(QRect(170, 410, 121, 16));
+        label2->setGeometry(QRect(170, 600, 121, 16));
         label2->setStyleSheet(QString::fromUtf8("background-color: rgb(47,50,58);\n"
 "color: rgb(255, 255, 255);\n"
 "font: bold Calibri;"));
@@ -147,9 +157,26 @@ public:
         error_lbl->setGeometry(QRect(10, 130, 311, 16));
         error_lbl->setStyleSheet(QString::fromUtf8("background-color: none;\n"
 "color: rgb(199, 56, 56);"));
+        line_8 = new QFrame(centralwidget);
+        line_8->setObjectName(QString::fromUtf8("line_8"));
+        line_8->setGeometry(QRect(10, 400, 421, 20));
+        line_8->setStyleSheet(QString::fromUtf8("background-color: rgb(47, 50, 58);\n"
+""));
+        line_8->setFrameShape(QFrame::HLine);
+        line_8->setFrameShadow(QFrame::Sunken);
+        shopbrands_combo = new QComboBox(centralwidget);
+        shopbrands_combo->setObjectName(QString::fromUtf8("shopbrands_combo"));
+        shopbrands_combo->setGeometry(QRect(140, 470, 171, 21));
+        shopbrands_combo->setStyleSheet(QString::fromUtf8(""));
+        label1_3 = new QLabel(centralwidget);
+        label1_3->setObjectName(QString::fromUtf8("label1_3"));
+        label1_3->setGeometry(QRect(40, 510, 91, 16));
+        label1_3->setStyleSheet(QString::fromUtf8("background-color: none;\n"
+"color: rgb(255, 255, 255);\n"
+"font: bold Calibri;"));
         add_btn = new QPushButton(centralwidget);
         add_btn->setObjectName(QString::fromUtf8("add_btn"));
-        add_btn->setGeometry(QRect(350, 80, 81, 21));
+        add_btn->setGeometry(QRect(140, 550, 171, 21));
         add_btn->setStyleSheet(QString::fromUtf8("QPushButton{\n"
 "      background-color: rgb(142, 209, 119);\n"
 "      border-radius: 10px;\n"
@@ -164,6 +191,34 @@ public:
 "QPushButton:pressed{\n"
 "background-color: rgb(96, 163, 73);\n"
 "}"));
+        label1_2 = new QLabel(centralwidget);
+        label1_2->setObjectName(QString::fromUtf8("label1_2"));
+        label1_2->setGeometry(QRect(40, 470, 91, 16));
+        label1_2->setStyleSheet(QString::fromUtf8("background-color: none;\n"
+"color: rgb(255, 255, 255);\n"
+"font: bold Calibri;"));
+        shopname_txt = new QLineEdit(centralwidget);
+        shopname_txt->setObjectName(QString::fromUtf8("shopname_txt"));
+        shopname_txt->setGeometry(QRect(140, 430, 171, 21));
+        shopaddress_txt = new QLineEdit(centralwidget);
+        shopaddress_txt->setObjectName(QString::fromUtf8("shopaddress_txt"));
+        shopaddress_txt->setGeometry(QRect(140, 510, 171, 21));
+        label1_4 = new QLabel(centralwidget);
+        label1_4->setObjectName(QString::fromUtf8("label1_4"));
+        label1_4->setGeometry(QRect(40, 430, 91, 16));
+        label1_4->setStyleSheet(QString::fromUtf8("background-color:none;\n"
+"color: rgb(255, 255, 255);\n"
+"font: bold Calibri;"));
+        error_lbl_2 = new QLabel(centralwidget);
+        error_lbl_2->setObjectName(QString::fromUtf8("error_lbl_2"));
+        error_lbl_2->setGeometry(QRect(10, 570, 311, 16));
+        error_lbl_2->setStyleSheet(QString::fromUtf8("background-color: none;\n"
+"color: rgb(199, 56, 56);"));
+        error_lbl_3 = new QLabel(centralwidget);
+        error_lbl_3->setObjectName(QString::fromUtf8("error_lbl_3"));
+        error_lbl_3->setGeometry(QRect(10, 570, 311, 16));
+        error_lbl_3->setStyleSheet(QString::fromUtf8("background-color: none;\n"
+"color: rgb(142, 209, 119);"));
         MainWindow->setCentralWidget(centralwidget);
         line_2->raise();
         line->raise();
@@ -178,7 +233,16 @@ public:
         result_lw->raise();
         line_7->raise();
         error_lbl->raise();
+        line_8->raise();
+        shopbrands_combo->raise();
+        label1_3->raise();
         add_btn->raise();
+        label1_2->raise();
+        shopname_txt->raise();
+        shopaddress_txt->raise();
+        label1_4->raise();
+        error_lbl_2->raise();
+        error_lbl_3->raise();
 
         retranslateUi(MainWindow);
 
@@ -197,7 +261,12 @@ public:
         label_3->setText(QCoreApplication::translate("MainWindow", "Founder", nullptr));
         label2->setText(QCoreApplication::translate("MainWindow", "Menua Hovhannisyan", nullptr));
         error_lbl->setText(QString());
+        label1_3->setText(QCoreApplication::translate("MainWindow", "Shop Address:", nullptr));
         add_btn->setText(QCoreApplication::translate("MainWindow", "Add Shop", nullptr));
+        label1_2->setText(QCoreApplication::translate("MainWindow", "Shop Brands:", nullptr));
+        label1_4->setText(QCoreApplication::translate("MainWindow", "Shop Name:", nullptr));
+        error_lbl_2->setText(QString());
+        error_lbl_3->setText(QString());
     } // retranslateUi
 
 };

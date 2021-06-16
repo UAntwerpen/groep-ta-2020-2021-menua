@@ -21,7 +21,7 @@
 
 QT_BEGIN_NAMESPACE
 
-class Ui_MainWindow
+class Ui_SubWindow
 {
 public:
     QWidget *centralwidget;
@@ -40,20 +40,20 @@ public:
     QLineEdit *shopaddress_txt;
     QLabel *Comment_txt;
 
-    void setupUi(QMainWindow *MainWindow)
+    void setupUi(QMainWindow *SubWindow)
     {
-        if (MainWindow->objectName().isEmpty())
-            MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
-        MainWindow->setEnabled(true);
-        MainWindow->resize(269, 268);
+        if (SubWindow->objectName().isEmpty())
+            SubWindow->setObjectName(QString::fromUtf8("SubWindow"));
+        SubWindow->setEnabled(true);
+        SubWindow->resize(269, 268);
         QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
-        sizePolicy.setHeightForWidth(MainWindow->sizePolicy().hasHeightForWidth());
-        MainWindow->setSizePolicy(sizePolicy);
-        MainWindow->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);"));
-        MainWindow->setAnimated(true);
-        centralwidget = new QWidget(MainWindow);
+        sizePolicy.setHeightForWidth(SubWindow->sizePolicy().hasHeightForWidth());
+        SubWindow->setSizePolicy(sizePolicy);
+        SubWindow->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);"));
+        SubWindow->setAnimated(true);
+        centralwidget = new QWidget(SubWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         line = new QFrame(centralwidget);
         line->setObjectName(QString::fromUtf8("line"));
@@ -145,7 +145,7 @@ public:
         Comment_txt->setGeometry(QRect(20, 190, 231, 16));
         Comment_txt->setStyleSheet(QString::fromUtf8("background-color: none;\n"
 "color: rgb(199, 56, 56);"));
-        MainWindow->setCentralWidget(centralwidget);
+        SubWindow->setCentralWidget(centralwidget);
         line_2->raise();
         line->raise();
         shopname_txt->raise();
@@ -161,30 +161,30 @@ public:
         shopaddress_txt->raise();
         Comment_txt->raise();
 
-        retranslateUi(MainWindow);
+        retranslateUi(SubWindow);
 
-        QMetaObject::connectSlotsByName(MainWindow);
+        QMetaObject::connectSlotsByName(SubWindow);
     } // setupUi
 
-    void retranslateUi(QMainWindow *MainWindow)
+    void retranslateUi(QMainWindow *SubWindow)
     {
-        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
+        SubWindow->setWindowTitle(QCoreApplication::translate("SubWindow", "SubWindow", nullptr));
 #if QT_CONFIG(statustip)
         centralwidget->setStatusTip(QString());
 #endif // QT_CONFIG(statustip)
-        label1->setText(QCoreApplication::translate("MainWindow", "Shop Name:", nullptr));
-        label_2->setText(QCoreApplication::translate("MainWindow", "Add Shop", nullptr));
+        label1->setText(QCoreApplication::translate("SubWindow", "Shop Name:", nullptr));
+        label_2->setText(QCoreApplication::translate("SubWindow", "Add Shop", nullptr));
         error_lbl->setText(QString());
-        add_btn->setText(QCoreApplication::translate("MainWindow", "Add Shop", nullptr));
-        label1_2->setText(QCoreApplication::translate("MainWindow", "Shop Brands:", nullptr));
-        label1_3->setText(QCoreApplication::translate("MainWindow", "Shop Address:", nullptr));
+        add_btn->setText(QCoreApplication::translate("SubWindow", "Add Shop", nullptr));
+        label1_2->setText(QCoreApplication::translate("SubWindow", "Shop Brands:", nullptr));
+        label1_3->setText(QCoreApplication::translate("SubWindow", "Shop Address:", nullptr));
         Comment_txt->setText(QString());
     } // retranslateUi
 
 };
 
 namespace Ui {
-    class MainWindow: public Ui_MainWindow {};
+    class SubWindow: public Ui_SubWindow {};
 } // namespace Ui
 
 QT_END_NAMESPACE

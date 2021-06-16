@@ -27,9 +27,12 @@ private:
     vector<Car*> cars;
     vector<Shop*> shops;
 public:
-    System(const string &file_name);
+    int argc;
+    char **argv;
 
-    int start(int p_argc, char *p_argv[]);
+    System(const string &file_name,int p_argc,char *argv[]);
+
+    int start();
 
     void parserJson(const string &file_name);
 
@@ -40,6 +43,9 @@ public:
 
     vector<Shop*> getCarShop(Car* p_car,vector<Shop*> p_shop);
     string getShopBrand(vector<string> shopbrands);
+
+    void addShop(string p_shopname, string p_shopbrand, string p_shopaddress);
+    void updateShops();
 };
 
 #include "Interface/mainwindow.h"

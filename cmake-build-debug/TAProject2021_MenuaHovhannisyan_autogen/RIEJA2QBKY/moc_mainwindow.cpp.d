@@ -654,12 +654,14 @@ C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/TAPro
   D:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fibersapi.h \
   D:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fileapi.h \
   D:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/fltwinerror.h \
+  D:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/getopt.h \
   D:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/guiddef.h \
   D:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/handleapi.h \
   D:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/heapapi.h \
   D:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/imm.h \
   D:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/inaddr.h \
   D:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/interlockedapi.h \
+  D:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/io.h \
   D:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ioapiset.h \
   D:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/jobapi.h \
   D:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/ktmtypes.h \
@@ -749,6 +751,7 @@ C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/TAPro
   D:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/time.h \
   D:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/timezoneapi.h \
   D:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/tvout.h \
+  D:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/unistd.h \
   D:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/unknwn.h \
   D:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/unknwnbase.h \
   D:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include/urlmon.h \

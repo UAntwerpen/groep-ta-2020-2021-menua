@@ -10,7 +10,7 @@
     <x>0</x>
     <y>0</y>
     <width>448</width>
-    <height>441</height>
+    <height>627</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -38,7 +38,7 @@
       <x>0</x>
       <y>60</y>
       <width>451</width>
-      <height>391</height>
+      <height>581</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -79,9 +79,9 @@
    <widget class="QPushButton" name="search_btn">
     <property name="geometry">
      <rect>
-      <x>250</x>
+      <x>280</x>
       <y>80</y>
-      <width>81</width>
+      <width>141</width>
       <height>21</height>
      </rect>
     </property>
@@ -137,7 +137,7 @@ font: bold Calibri;</string>
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>390</y>
+      <y>580</y>
       <width>421</width>
       <height>20</height>
      </rect>
@@ -209,7 +209,7 @@ font-size: 20px;</string>
     <property name="geometry">
      <rect>
       <x>170</x>
-      <y>410</y>
+      <y>600</y>
       <width>121</width>
       <height>16</height>
      </rect>
@@ -272,12 +272,60 @@ color: rgb(199, 56, 56);</string>
      <string/>
     </property>
    </widget>
+   <widget class="Line" name="line_8">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>400</y>
+      <width>421</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(47, 50, 58);
+</string>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="shopbrands_combo">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>470</y>
+      <width>171</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label1_3">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>510</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: none;
+color: rgb(255, 255, 255);
+font: bold Calibri;</string>
+    </property>
+    <property name="text">
+     <string>Shop Address:</string>
+    </property>
+   </widget>
    <widget class="QPushButton" name="add_btn">
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>80</y>
-      <width>81</width>
+      <x>140</x>
+      <y>550</y>
+      <width>171</width>
       <height>21</height>
      </rect>
     </property>
@@ -301,6 +349,96 @@ background-color: rgb(96, 163, 73);
      <string>Add Shop</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label1_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>470</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: none;
+color: rgb(255, 255, 255);
+font: bold Calibri;</string>
+    </property>
+    <property name="text">
+     <string>Shop Brands:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="shopname_txt">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>430</y>
+      <width>171</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="shopaddress_txt">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>510</y>
+      <width>171</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label1_4">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>430</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:none;
+color: rgb(255, 255, 255);
+font: bold Calibri;</string>
+    </property>
+    <property name="text">
+     <string>Shop Name:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="error_lbl_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>570</y>
+      <width>311</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: none;
+color: rgb(199, 56, 56);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="error_lbl_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>570</y>
+      <width>311</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: none;
+color: rgb(142, 209, 119);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
    <zorder>line_2</zorder>
    <zorder>line</zorder>
    <zorder>search_btn</zorder>
@@ -314,7 +452,16 @@ background-color: rgb(96, 163, 73);
    <zorder>result_lw</zorder>
    <zorder>line_7</zorder>
    <zorder>error_lbl</zorder>
+   <zorder>line_8</zorder>
+   <zorder>shopbrands_combo</zorder>
+   <zorder>label1_3</zorder>
    <zorder>add_btn</zorder>
+   <zorder>label1_2</zorder>
+   <zorder>shopname_txt</zorder>
+   <zorder>shopaddress_txt</zorder>
+   <zorder>label1_4</zorder>
+   <zorder>error_lbl_2</zorder>
+   <zorder>error_lbl_3</zorder>
   </widget>
  </widget>
  <resources/>

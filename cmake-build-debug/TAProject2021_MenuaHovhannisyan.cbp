@@ -116,12 +116,6 @@
 		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Car.h">
 			<Option target="TAProject2021_MenuaHovhannisyan"/>
 		</Unit>
-		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Interface/SubInterface/subwindow.cpp">
-			<Option target="TAProject2021_MenuaHovhannisyan"/>
-		</Unit>
-		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Interface/SubInterface/subwindow.h">
-			<Option target="TAProject2021_MenuaHovhannisyan"/>
-		</Unit>
 		<Unit filename="C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Interface/mainwindow.cpp">
 			<Option target="TAProject2021_MenuaHovhannisyan"/>
 		</Unit>

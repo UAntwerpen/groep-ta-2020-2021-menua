@@ -5,7 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Car.cpp" "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Car.cpp.obj"
-  "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Interface/SubInterface/subwindow.cpp" "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Interface/SubInterface/subwindow.cpp.obj"
   "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Interface/mainwindow.cpp" "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Interface/mainwindow.cpp.obj"
   "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/Shop.cpp" "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Shop.cpp.obj"
   "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/System.cpp" "C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/cmake-build-debug/CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/System.cpp.obj"

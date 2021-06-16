@@ -1,13 +1,15 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 
-MainWindow::MainWindow(System* p_system, QWidget *parent) :
-    QMainWindow(parent),
-    ui(new Ui::MainWindow)
-{
+
+MainWindow::MainWindow(System* p_system,QWidget *parent) :QMainWindow(parent),ui(new Ui::MainWindow){
     system = p_system;
     ui->setupUi(this);
     connect(ui->search_btn, SIGNAL(released()),this,SLOT(search()));
+    connect(ui->add_btn, SIGNAL(released()),this,SLOT(add()));
+    for(auto car: system->getCars()){
+        ui->shopbrands_combo->addItem(QString::fromStdString(car->getCarbrand()));
+    }
 }
 
 MainWindow::~MainWindow()
@@ -30,5 +32,16 @@ void MainWindow::search() {
     }
     else{
         ui->error_lbl->setText("*Vehicle not found in the database, Please try again!");
+    }
+}
+
+void MainWindow::add() {
+    if(!ui->shopname_txt->text().isEmpty() and !ui->shopaddress_txt->text().isEmpty()){
+        system->addShop(ui->shopname_txt->text().toStdString(),ui->shopbrands_combo->currentText().toStdString(),ui->shopaddress_txt->text().toStdString());
+        system->updateShops();
+        ui->error_lbl_3->setText("Successfully Shop added!");
+    }
+    else{
+        ui->error_lbl_2->setText("*Please fill in all the fields!");
     }
 }

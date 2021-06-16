@@ -182,33 +182,6 @@ Car.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Car.cpp.s
 .PHONY : Car.cpp.s
 
-Interface/SubInterface/subwindow.obj: Interface/SubInterface/subwindow.cpp.obj
-
-.PHONY : Interface/SubInterface/subwindow.obj
-
-# target to build an object file
-Interface/SubInterface/subwindow.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Interface/SubInterface/subwindow.cpp.obj
-.PHONY : Interface/SubInterface/subwindow.cpp.obj
-
-Interface/SubInterface/subwindow.i: Interface/SubInterface/subwindow.cpp.i
-
-.PHONY : Interface/SubInterface/subwindow.i
-
-# target to preprocess a source file
-Interface/SubInterface/subwindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Interface/SubInterface/subwindow.cpp.i
-.PHONY : Interface/SubInterface/subwindow.cpp.i
-
-Interface/SubInterface/subwindow.s: Interface/SubInterface/subwindow.cpp.s
-
-.PHONY : Interface/SubInterface/subwindow.s
-
-# target to generate assembly for a file
-Interface/SubInterface/subwindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TAProject2021_MenuaHovhannisyan.dir\build.make CMakeFiles/TAProject2021_MenuaHovhannisyan.dir/Interface/SubInterface/subwindow.cpp.s
-.PHONY : Interface/SubInterface/subwindow.cpp.s
-
 Interface/mainwindow.obj: Interface/mainwindow.cpp.obj
 
 .PHONY : Interface/mainwindow.obj
@@ -546,9 +519,6 @@ help:
 	@echo ... Car.obj
 	@echo ... Car.i
 	@echo ... Car.s
-	@echo ... Interface/SubInterface/subwindow.obj
-	@echo ... Interface/SubInterface/subwindow.i
-	@echo ... Interface/SubInterface/subwindow.s
 	@echo ... Interface/mainwindow.obj
 	@echo ... Interface/mainwindow.i
 	@echo ... Interface/mainwindow.s

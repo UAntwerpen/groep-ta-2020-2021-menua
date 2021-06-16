@@ -7,8 +7,10 @@
 using namespace std;
 
 int main(int argc, char *argv[]) {
-    System s("../data.json");
-    s.start(argc,argv);
+    System s("../data.json",argc,argv);
+    s.start();
+
+
 
 
     /*RE re;
@@ -18,6 +20,4 @@ int main(int argc, char *argv[]) {
     re.ENFAtoNFA(pp.first,pp.second).toDFA().print();
     cout << boolalpha << re.ENFAtoNFA(pp.first,pp.second).toDFA().accepts("AUDI RS5") << endl;
     //re.testPrint("0+(01)+(0+1)*");*/
-
-    return 0;
 }
