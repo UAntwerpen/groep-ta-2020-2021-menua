@@ -114,7 +114,6 @@ vector<Shop*> System::getShops() {
 
 Car* System::checkinput(const string &p_input) {
     for(auto car: cars){
-
         bool accept = false;
         RE reg;
         pair<vector<Node *>, vector<Edge *>> pp;
@@ -209,7 +208,7 @@ void System::addShop(string p_shopname, string p_shopbrand, string p_shopaddress
         string reg = j["Cars"][i]["CarRegex"];
         string cshops = j["Cars"][i]["CarShops"];
 
-        if(shopbrand == brnd){
+        if(p_shopbrand == brnd){
             for(auto cr:cars){
                 if(cr->getCarbrand() == brnd){
                     cr->getCarShops().push_back(id);
@@ -275,5 +274,37 @@ void System::updateShops() {
         }
     }
 
+
+}
+
+void System::updateCarShops() {
+    ifstream input(file);
+    json j;
+    input >> j;
+
+    for(auto car:j["Cars"]){
+        vector<int> shopsvec;
+        string carname = car["CarBrand"];
+
+        string tmp = car["CarShops"];
+        for(auto t: tmp){
+            if(t!= '-'){
+                int tmpshop;
+                string strinshop;
+                strinshop.push_back(t);
+                stringstream tt;
+                tt << strinshop;
+                tt >> tmpshop;
+
+                shopsvec.push_back(tmpshop);
+            }
+        }
+
+        for(auto cr:cars){
+            if(cr->getCarShops() != shopsvec and cr->getCarbrand() == carname){
+                cr->setCarShops(shopsvec);
+            }
+        }
+    }
 
 }

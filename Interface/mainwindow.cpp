@@ -39,6 +39,7 @@ void MainWindow::add() {
     if(!ui->shopname_txt->text().isEmpty() and !ui->shopaddress_txt->text().isEmpty()){
         system->addShop(ui->shopname_txt->text().toStdString(),ui->shopbrands_combo->currentText().toStdString(),ui->shopaddress_txt->text().toStdString());
         system->updateShops();
+        system->updateCarShops();
         ui->error_lbl_3->setText("Successfully Shop added!");
     }
     else{
