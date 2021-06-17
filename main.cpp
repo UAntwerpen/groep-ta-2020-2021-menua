@@ -7,7 +7,7 @@
 using namespace std;
 
 int main(int argc, char *argv[]) {
-    System s("../data.json",argc,argv);
+    System s("../data2.json",argc,argv);
     s.start();
 
 

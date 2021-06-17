@@ -47,6 +47,7 @@ public:
     void addShop(string p_shopname, string p_shopbrand, string p_shopaddress);
     void updateShops();
     void updateCarShops();
+    void updateBrands();
 };
 
 #include "Interface/mainwindow.h"

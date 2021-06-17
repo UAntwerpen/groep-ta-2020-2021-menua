@@ -1,18 +1,27 @@
 {
 	"Shops":[
 		{
-			"ShopId": "0",
-			"ShopName": "Garage BMW",
-			"ShopParts": "BMW"
+			"ShopId":"0",
+			"ShopName":"Garage BMW",
+			"ShopBrands":"BMW",
+			"ShopAddress":"Rostsestraat 225"
 		}
 	],
-	
+
 	"Cars":[
 		{
-			"CarId": "0",
-			"CarBrand": "AUDI",
-			"CarRegex": "AUDI RS(1+2+3+4+5+6+7)",
-			"CarPartShops":"2-3-4-6"
-		}
-	]
+			"CarBrand":"AUDI",
+			"CarRegex":"AUDI RS(1+2+3+4+5+6+7)",
+			"CarShops":""
+		},
+		{
+			"CarBrand":"BMW",
+			"CarRegex":"BMW M(1+2+3+4+5+6)",
+			"CarShops":"0"
+		},
+		{
+			"CarBrand":"MERCEDES",
+			"CarRegex":"MERCEDES (S+E+C)(6+5+4)3",
+			"CarShops":""
+		}]
 }

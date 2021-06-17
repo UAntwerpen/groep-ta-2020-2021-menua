@@ -159,9 +159,10 @@ void System::addShop(string p_shopname, string p_shopbrand, string p_shopaddress
     json j;
     input >> j;
 
-
     string jsondoc;
     string newitem;
+    bool found = false;
+    string fndid;
 
     int id;
     string sid;
@@ -183,24 +184,37 @@ void System::addShop(string p_shopname, string p_shopbrand, string p_shopaddress
     ss << id;
     ss >> sid;
 
-    jsondoc = "{\"Shops\":[";
 
-    for(auto k:j["Shops"]){
+
+    jsondoc = "{\n\t\"Shops\":[\n\t";
+
+    for (int i = 0; i < j["Shops"].size(); ++i) {
         string tmpdoc;
-        string nme = k["ShopName"];
-        string rid = k["ShopId"];
-        string brand = k["ShopBrands"];
-        string address = k["ShopAddress"];
+        string nme = j["Shops"][i]["ShopName"];
+        string rid = j["Shops"][i]["ShopId"];
+        string brand =j["Shops"][i]["ShopBrands"];
+        string address = j["Shops"][i]["ShopAddress"];
 
-        tmpdoc = "{\"ShopId\":\"" + rid + "\",\"ShopName\":\"" + nme + "\",\"ShopBrands\":\"" + brand + "\",\"ShopAddress\":\"" + address + "\"},";
+        if(j["Shops"][i]["ShopName"] == p_shopname and j["Shops"][i]["ShopAddress"] == p_shopaddress){
+            brand += "-" + p_shopbrand;
+            found = true;
+            fndid = j["Shops"][i]["ShopId"];
+        }
+        if(i == j["Shops"].size()-1){
+            tmpdoc = "{\n\t\t\"ShopId\":\"" + rid + "\",\n\t\t\"ShopName\":\"" + nme + "\",\n\t\t\"ShopBrands\":\"" + brand + "\",\n\t\t\"ShopAddress\":\"" + address + "\"\n\t}";
+        }
+        else{
+            tmpdoc = "{\n\t\t\"ShopId\":\"" + rid + "\",\n\t\t\"ShopName\":\"" + nme + "\",\n\t\t\"ShopBrands\":\"" + brand + "\",\n\t\t\"ShopAddress\":\"" + address + "\"\n\t},\n\t";
+        }
         jsondoc += tmpdoc;
     }
 
-    newitem = "{\"ShopId\":\"" + sid + "\",\"ShopName\":\"" + shopname + "\",\"ShopBrands\":\"" + shopbrand + "\",\"ShopAddress\":\"" + shopaddress + "\"}";
-    jsondoc += newitem;
+    if(!found){
+        newitem = ",\n\t{\n\t\t\"ShopId\":\"" + sid + "\",\n\t\t\"ShopName\":\"" + shopname + "\",\n\t\t\"ShopBrands\":\"" + shopbrand + "\",\n\t\t\"ShopAddress\":\"" + shopaddress + "\"\n\t}";
+        jsondoc += newitem;
+    }
 
-
-    jsondoc +="],\"Cars\":[";
+    jsondoc +="\n\t],\n\n\t\"Cars\":[\n\t";
 
     for (int i = 0; i < j["Cars"].size(); ++i) {
         string tmpdoc;
@@ -209,24 +223,33 @@ void System::addShop(string p_shopname, string p_shopbrand, string p_shopaddress
         string cshops = j["Cars"][i]["CarShops"];
 
         if(p_shopbrand == brnd){
-            for(auto cr:cars){
-                if(cr->getCarbrand() == brnd){
-                    cr->getCarShops().push_back(id);
+            if(found){
+                if(j["Cars"][i]["CarShops"] == ""){
+                    cshops += fndid;
+                }else{
+                    cshops += "-" + fndid;
                 }
             }
-            cshops += "-" + sid;
+            else{
+                for(auto cr:cars){
+                    if(cr->getCarbrand() == brnd){
+                        cr->getCarShops().push_back(id);
+                    }
+                }
+                cshops += "-" + sid;
+            }
         }
 
         if(i == j["Cars"].size()-1){
-            tmpdoc = "{\"CarBrand\":\"" + brnd + "\",\"CarRegex\":\"" + reg + "\",\"CarShops\":\"" + cshops + "\"}";
+            tmpdoc = "{\n\t\t\"CarBrand\":\"" + brnd + "\",\n\t\t\"CarRegex\":\"" + reg + "\",\n\t\t\"CarShops\":\"" + cshops + "\"\n\t}";
         }
         else{
-            tmpdoc = "{\"CarBrand\":\"" + brnd + "\",\"CarRegex\":\"" + reg + "\",\"CarShops\":\"" + cshops + "\"},";
+            tmpdoc = "{\n\t\t\"CarBrand\":\"" + brnd + "\",\n\t\t\"CarRegex\":\"" + reg + "\",\n\t\t\"CarShops\":\"" + cshops + "\"\n\t},\n\t";
         }
         jsondoc += tmpdoc;
     }
 
-    jsondoc += "]}";
+    jsondoc += "]\n}";
 
     ofstream infile;
     infile.open(file);
@@ -307,4 +330,53 @@ void System::updateCarShops() {
         }
     }
 
+}
+
+void System::updateBrands() {
+    ifstream input(file);
+    json j;
+    input >> j;
+
+    for(auto shop:j["Shops"]){
+        int shopid;
+        string spid = shop["ShopId"];
+        stringstream ss;
+        ss << spid;
+        ss >> shopid;
+
+        for(auto k: shops){
+
+            string vecbrands;
+            for (int i = 0; i < k->getShopBrands().size(); ++i) {
+                if(i == k->getShopBrands().size()-1){
+                    vecbrands += k->getShopBrands()[i];
+                }else{
+                    vecbrands += k->getShopBrands()[i] + "-";
+                }
+            }
+
+            if(shop["ShopBrands"] != vecbrands and k->getShopId() == shopid){
+                string tmp;
+                vector<string> vect;
+                string nwbrands = shop["ShopBrands"];
+                for (int i = 0; i < nwbrands.size(); ++i) {
+                    if(i == nwbrands.size()-1){
+                        tmp += nwbrands[i];
+                        vect.push_back(tmp);
+                        tmp ="";
+                    }
+                    if(nwbrands[i] != '-'){
+                        tmp += nwbrands[i];
+                    }
+                    else{
+                        vect.push_back(tmp);
+                        tmp = "";
+                    }
+                }
+
+                k->setShopBrands(vect);
+
+            }
+        }
+    }
 }
