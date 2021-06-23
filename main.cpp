@@ -7,7 +7,7 @@
 using namespace std;
 
 int main(int argc, char *argv[]) {
-    System s("../data2.json",argc,argv);
+    System s("../data.json",argc,argv);
     s.start();
 
 
@@ -15,9 +15,9 @@ int main(int argc, char *argv[]) {
 
     /*RE re;
     pair<vector<Node *>, vector<Edge *>> pp;
-    pp = re.toENFA("AUDI RS(1+2+3+4+5+6+7)");
+    pp = re.toENFA("MERCEDES (S+E+C)(6+5+4)3");
 
     re.ENFAtoNFA(pp.first,pp.second).toDFA().print();
-    cout << boolalpha << re.ENFAtoNFA(pp.first,pp.second).toDFA().accepts("AUDI RS5") << endl;
+    cout << boolalpha << re.ENFAtoNFA(pp.first,pp.second).toDFA().accepts("MERCEDES S63") << endl;
     //re.testPrint("0+(01)+(0+1)*");*/
 }

@@ -1,27 +1,33 @@
 {
 	"Shops":[
-		{
-			"ShopId":"0",
-			"ShopName":"Garage BMW",
-			"ShopBrands":"BMW",
-			"ShopAddress":"Rostsestraat 225"
-		}
+	{
+		"ShopId":"0",
+		"ShopName":"Garage BMW",
+		"ShopBrands":"BMW",
+		"ShopAddress":"Rostsestraat 225"
+	},
+	{
+		"ShopId":"1",
+		"ShopName":"Melqon",
+		"ShopBrands":"AUDI-BMW-MERCEDES",
+		"ShopAddress":"NOOBSTRAAT"
+	}
 	],
 
 	"Cars":[
-		{
-			"CarBrand":"AUDI",
-			"CarRegex":"AUDI RS(1+2+3+4+5+6+7)",
-			"CarShops":""
-		},
-		{
-			"CarBrand":"BMW",
-			"CarRegex":"BMW M(1+2+3+4+5+6)",
-			"CarShops":"0"
-		},
-		{
-			"CarBrand":"MERCEDES",
-			"CarRegex":"MERCEDES (S+E+C)(6+5+4)3",
-			"CarShops":""
-		}]
+	{
+		"CarBrand":"AUDI",
+		"CarRegex":"AUDI RS(1+2+3+4+5+6+7)",
+		"CarShops":"-1"
+	},
+	{
+		"CarBrand":"BMW",
+		"CarRegex":"BMW M(1+2+3+4+5+6)",
+		"CarShops":"0-1"
+	},
+	{
+		"CarBrand":"MERCEDES-BENZ",
+		"CarRegex":"MERCEDES (S+E+C)(6+5+4)3",
+		"CarShops":""
+	}]
 }

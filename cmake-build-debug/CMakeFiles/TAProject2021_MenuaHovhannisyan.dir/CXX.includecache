@@ -42,10 +42,6 @@ string
 vector
 -
 
-C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/System.cpp
-System.h
-C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/System.h
-
 C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/System.h
 string
 -
@@ -493,6 +489,18 @@ limits
 -
 type_traits
 -
+
+C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/main.cpp
+iostream
+-
+TA_MenuaHovhannisyan/DFA.h
+C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/DFA.h
+TA_MenuaHovhannisyan/NFA.h
+C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/NFA.h
+TA_MenuaHovhannisyan/RE.h
+C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/TA_MenuaHovhannisyan/RE.h
+System.h
+C:/Users/Menua/Documents/GitHub/groep-ta-2020-2021-menua/System.h
 
 D:/QT/5.15.2/mingw81_64/include/QtANGLE/GLES2/gl2.h
 GLES2/gl2platform.h

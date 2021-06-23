@@ -493,8 +493,13 @@ pair<vector<Node *>, vector<Edge *>> RE::toENFA(const string& p_inputstring) {
         }
     }
 
-    for(auto ed: edgesToRemove){
-        p_edges.erase(p_edges.begin()+ed);
+
+    for (int it = p_edges.size()-1; it >=0 ; --it) {
+        for(auto ed: edgesToRemove){
+            if(ed == it){
+                p_edges.erase(p_edges.begin()+ed);
+            }
+        }
     }
 
     return pair<vector<Node*>, vector<Edge*>>(p_nodes,p_edges);
